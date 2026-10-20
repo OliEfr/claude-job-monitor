@@ -1,7 +1,7 @@
 # Run log
 
 ## 2026-10-20 (initial comprehensive search)
-36 openings recorded. Checked with no relevant robotics PhD intern posting open:
+37 openings recorded. Checked with no relevant robotics PhD intern posting open:
 - Intrinsic (Greenhouse board: no intern roles)
 - Toyota Research Institute (only non-robotics interns: causal reasoning, driving world models)
 - Sony AI (only audio ML intern)
