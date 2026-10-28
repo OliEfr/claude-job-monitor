@@ -1,0 +1,8990 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="ltr" dir="ltr" lang="en-US">
+
+<head>
+    <title>Research Intern: Policy Learning and Action Grounding for Multimodal Embodied Agents - Honda Research Institute USA</title>
+    <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+
+
+
+
+
+
+
+
+
+<meta content="intern position" lang="en-US" name="keywords" />
+
+
+<script type="importmap">{"imports":{"react-dom":"/o/frontend-js-react-web/__liferay__/exports/react-dom.js","prop-types":"/o/frontend-js-react-web/__liferay__/exports/prop-types.js","react-dnd":"/o/frontend-js-react-web/__liferay__/exports/react-dnd.js","formik":"/o/frontend-js-react-web/__liferay__/exports/formik.js","react":"/o/frontend-js-react-web/__liferay__/exports/react.js","react-dnd-html5-backend":"/o/frontend-js-react-web/__liferay__/exports/react-dnd-html5-backend.js","classnames":"/o/frontend-js-react-web/__liferay__/exports/classnames.js"},"scopes":{}}</script><script data-senna-track="temporary">var Liferay = window.Liferay || {};Liferay.Icons = Liferay.Icons || {};Liferay.Icons.spritemap = 'https://usa.honda-ri.com/o/liferay-hri-theme/images/clay/icons.svg';</script>
+<script data-senna-track="permanent" src="/combo?browserId=other&minifierType=js&languageId=en_US&t=1792810405818&/o/frontend-js-jquery-web/jquery/jquery.min.js&/o/frontend-js-jquery-web/jquery/init.js&/o/frontend-js-jquery-web/jquery/ajax.js&/o/frontend-js-jquery-web/jquery/bootstrap.bundle.min.js&/o/frontend-js-jquery-web/jquery/collapsible_search.js&/o/frontend-js-jquery-web/jquery/fm.js&/o/frontend-js-jquery-web/jquery/form.js&/o/frontend-js-jquery-web/jquery/popper.min.js&/o/frontend-js-jquery-web/jquery/side_navigation.js" type="text/javascript"></script>
+<link data-senna-track="temporary" href="https://usa.honda-ri.com/-/research-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents" rel="canonical" />
+<link data-senna-track="temporary" href="https://usa.honda-ri.com/-/research-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents" hreflang="en-US" rel="alternate" />
+<link data-senna-track="temporary" href="https://usa.honda-ri.com/-/research-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents" hreflang="x-default" rel="alternate" />
+
+
+<link href="https://usa.honda-ri.com/o/liferay-hri-theme/images/favicon.ico" rel="icon" />
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://usa.honda-ri.com/o/liferay-hri-theme/css/clay.css?browserId=other&amp;themeId=liferayhritheme_WAR_liferayhritheme&amp;languageId=en_US&amp;t=1790886068000" id="liferayAUICSS" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+
+	<link href="https://usa.honda-ri.com/o/asset-publisher-web/css/main.css?browserId=other&amp;themeId=liferayhritheme_WAR_liferayhritheme&amp;languageId=en_US&amp;t=1677334226000" rel="stylesheet" type="text/css"
+ data-senna-track="temporary" id="f1dbdb53" />
+<link href="https://usa.honda-ri.com/o/dynamic-data-mapping-form-web/admin/css/main.css?browserId=other&amp;themeId=liferayhritheme_WAR_liferayhritheme&amp;languageId=en_US&amp;t=1677336328000" rel="stylesheet" type="text/css"
+ data-senna-track="temporary" id="f37d22eb" />
+<link href="https://usa.honda-ri.com/o/journal-content-web/css/main.css?browserId=other&amp;themeId=liferayhritheme_WAR_liferayhritheme&amp;languageId=en_US&amp;t=1677338374000" rel="stylesheet" type="text/css"
+ data-senna-track="temporary" id="d3aae341" />
+<link href="https://usa.honda-ri.com/o/portal-search-web/css/main.css?browserId=other&amp;themeId=liferayhritheme_WAR_liferayhritheme&amp;languageId=en_US&amp;t=1677334956000" rel="stylesheet" type="text/css"
+ data-senna-track="temporary" id="598a7ef9" />
+<link href="https://usa.honda-ri.com/o/product-navigation-product-menu-web/css/main.css?browserId=other&amp;themeId=liferayhritheme_WAR_liferayhritheme&amp;languageId=en_US&amp;t=1677338408000" rel="stylesheet" type="text/css"
+ data-senna-track="temporary" id="f2d947ea" />
+<link href="https://usa.honda-ri.com/o/com.liferay.product.navigation.user.personal.bar.web/css/main.css?browserId=other&amp;themeId=liferayhritheme_WAR_liferayhritheme&amp;languageId=en_US&amp;t=1676005702000" rel="stylesheet" type="text/css"
+ data-senna-track="temporary" id="215890f0" />
+<link href="https://usa.honda-ri.com/o/site-navigation-menu-web/css/main.css?browserId=other&amp;themeId=liferayhritheme_WAR_liferayhritheme&amp;languageId=en_US&amp;t=1677332136000" rel="stylesheet" type="text/css"
+ data-senna-track="temporary" id="92eaed0a" />
+
+
+
+
+
+
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	// <![CDATA[
+		var Liferay = Liferay || {};
+
+		Liferay.Browser = {
+			acceptsGzip: function() {
+				return false;
+			},
+
+			
+
+			getMajorVersion: function() {
+				return 0;
+			},
+
+			getRevision: function() {
+				return '';
+			},
+			getVersion: function() {
+				return '';
+			},
+
+			
+
+			isAir: function() {
+				return false;
+			},
+			isChrome: function() {
+				return false;
+			},
+			isEdge: function() {
+				return false;
+			},
+			isFirefox: function() {
+				return false;
+			},
+			isGecko: function() {
+				return false;
+			},
+			isIe: function() {
+				return false;
+			},
+			isIphone: function() {
+				return false;
+			},
+			isLinux: function() {
+				return true;
+			},
+			isMac: function() {
+				return false;
+			},
+			isMobile: function() {
+				return false;
+			},
+			isMozilla: function() {
+				return true;
+			},
+			isOpera: function() {
+				return false;
+			},
+			isRtf: function() {
+				return false;
+			},
+			isSafari: function() {
+				return false;
+			},
+			isSun: function() {
+				return false;
+			},
+			isWebKit: function() {
+				return false;
+			},
+			isWindows: function() {
+				return false;
+			}
+		};
+
+		Liferay.Data = Liferay.Data || {};
+
+		Liferay.Data.ICONS_INLINE_SVG = true;
+
+		Liferay.Data.NAV_SELECTOR = '#navigation';
+
+		Liferay.Data.NAV_SELECTOR_MOBILE = '#navigationCollapse';
+
+		Liferay.Data.isCustomizationView = function() {
+			return false;
+		};
+
+		Liferay.Data.notices = [
+			
+		];
+
+		(function () {
+			var available = {};
+
+			var direction = {};
+
+			
+
+				available['en_US'] = 'English\x20\x28United\x20States\x29';
+				direction['en_US'] = 'ltr';
+
+			
+
+			Liferay.Language = {
+				available,
+				direction,
+				get: function(key) {
+					return key;
+				}
+			};
+		})();
+
+		var featureFlags = {"LPS-167151":"false","LPS-165491":"false","LPS-165493":"false","COMMERCE-9410":"false","LRAC-10632":"false","LPS-114786":"false","COMMERCE-8087":"false","LRAC-10757":"false","ui.visible[beta]":"true","LPS-170809":"false","LPS-161364":"false","LPS-156421":"false","LPS-157670":"false","COMMERCE-5898":"false","LPS-155692":"false","LPS-172194":"false","LPS-166216":"false","LPS-169923":"false","LPS-171364":"false","LPS-153714":"false","LPS-171440":"false","LPS-170670":"false","LPS-169981":"false","LPS-155659":"false","LPS-153117":"false","LPS-153478":"false","LPS-171722":"false","LPS-163118":"false","LPS-164528":"false","LPS-135430":"false","LPS-164563":"false","ui.visible[release]":"true","LPS-168886":"false","ui.visible[dev]":"false","LPS-158259":"false","LPS-153324":"false","LPS-166036":"false","LPS-166479":"false","LPS-172094":"false","LPS-144527":"false","COMMERCE-8949":"false","LPS-83384":"false","LPS-163688":"false","LPS-166954":"false","LPS-149256":"false","LPS-165482":"false","LPS-159913":"false","LPS-153332":"false","LPS-155284":"false","LPS-161313":"false","LPS-162964":"false","LPS-161631":"false","LPS-158675":"false","LPS-162966":"false","LPS-159643":"false","LPS-154672":"false","LPS-164948":"false","LPS-165476":"false","LPS-166126":"false","LPS-167536":"false","LPS-162765":"false"};
+
+		Liferay.FeatureFlags = Object.keys(featureFlags).reduce(
+			(acc, key) => ({
+				...acc, [key]: featureFlags[key] === 'true' || featureFlags[key] === true
+			}), {}
+		);
+
+		Liferay.PortletKeys = {
+			DOCUMENT_LIBRARY: 'com_liferay_document_library_web_portlet_DLPortlet',
+			DYNAMIC_DATA_MAPPING: 'com_liferay_dynamic_data_mapping_web_portlet_DDMPortlet',
+			ITEM_SELECTOR: 'com_liferay_item_selector_web_portlet_ItemSelectorPortlet'
+		};
+
+		Liferay.PropsValues = {
+			JAVASCRIPT_SINGLE_PAGE_APPLICATION_TIMEOUT: 0,
+			UPLOAD_SERVLET_REQUEST_IMPL_MAX_SIZE: 104857600
+		};
+
+		Liferay.ThemeDisplay = {
+
+			
+
+			
+				getLayoutId: function() {
+					return '53';
+				},
+
+				
+
+				getLayoutRelativeControlPanelURL: function() {
+					return '/group/hri-us-redesign/~/control_panel/manage?p_p_id=com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_SgMsVAEFxU9G';
+				},
+
+				getLayoutRelativeURL: function() {
+					return '/job-position-detail';
+				},
+				getLayoutURL: function() {
+					return 'https://usa.honda-ri.com/job-position-detail';
+				},
+				getParentLayoutId: function() {
+					return '4';
+				},
+				isControlPanel: function() {
+					return false;
+				},
+				isPrivateLayout: function() {
+					return 'false';
+				},
+				isVirtualLayout: function() {
+					return false;
+				},
+			
+
+			getBCP47LanguageId: function() {
+				return 'en-US';
+			},
+			getCanonicalURL: function() {
+
+				
+
+				return 'https\x3a\x2f\x2fusa\x2ehonda-ri\x2ecom\x2f-\x2fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents';
+			},
+			getCDNBaseURL: function() {
+				return 'https://usa.honda-ri.com';
+			},
+			getCDNDynamicResourcesHost: function() {
+				return '';
+			},
+			getCDNHost: function() {
+				return '';
+			},
+			getCompanyGroupId: function() {
+				return '20152';
+			},
+			getCompanyId: function() {
+				return '20116';
+			},
+			getDefaultLanguageId: function() {
+				return 'en_US';
+			},
+			getDoAsUserIdEncoded: function() {
+				return '';
+			},
+			getLanguageId: function() {
+				return 'en_US';
+			},
+			getParentGroupId: function() {
+				return '248678';
+			},
+			getPathContext: function() {
+				return '';
+			},
+			getPathImage: function() {
+				return '/image';
+			},
+			getPathJavaScript: function() {
+				return '/o/frontend-js-web';
+			},
+			getPathMain: function() {
+				return '/c';
+			},
+			getPathThemeImages: function() {
+				return 'https://usa.honda-ri.com/o/liferay-hri-theme/images';
+			},
+			getPathThemeRoot: function() {
+				return '/o/liferay-hri-theme';
+			},
+			getPathThemeSpritemap: function() {
+				return 'https://usa.honda-ri.com/o/liferay-hri-theme/images/clay/icons.svg';
+			},
+			getPlid: function() {
+				return '285340';
+			},
+			getPortalURL: function() {
+				return 'https://usa.honda-ri.com';
+			},
+			getRealUserId: function() {
+				return '20120';
+			},
+			getRemoteAddr: function() {
+				return '192.168.132.1';
+			},
+			getRemoteHost: function() {
+				return '192.168.132.1';
+			},
+			getScopeGroupId: function() {
+				return '248678';
+			},
+			getScopeGroupIdOrLiveGroupId: function() {
+				return '248678';
+			},
+			getSessionId: function() {
+				return '';
+			},
+			getSiteAdminURL: function() {
+				return 'https://usa.honda-ri.com/group/hri-us-redesign/~/control_panel/manage?p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view';
+			},
+			getSiteGroupId: function() {
+				return '248678';
+			},
+			getURLControlPanel: function() {
+				return '/group/control_panel?refererPlid=285340';
+			},
+			getURLHome: function() {
+				return 'https\x3a\x2f\x2fusa\x2ehonda-ri\x2ecom\x2fweb\x2fguest';
+			},
+			getUserEmailAddress: function() {
+				return '';
+			},
+			getUserId: function() {
+				return '20120';
+			},
+			getUserName: function() {
+				return '';
+			},
+			isAddSessionIdToURL: function() {
+				return false;
+			},
+			isImpersonated: function() {
+				return false;
+			},
+			isSignedIn: function() {
+				return false;
+			},
+
+			isStagedPortlet: function() {
+				
+					
+						return true;
+					
+					
+			},
+
+			isStateExclusive: function() {
+				return false;
+			},
+			isStateMaximized: function() {
+				return false;
+			},
+			isStatePopUp: function() {
+				return false;
+			}
+		};
+
+		var themeDisplay = Liferay.ThemeDisplay;
+
+		Liferay.AUI = {
+
+			
+
+			getCombine: function() {
+				return true;
+			},
+			getComboPath: function() {
+				return '/combo/?browserId=other&minifierType=&languageId=en_US&t=1790886069859&';
+			},
+			getDateFormat: function() {
+				return '%m/%d/%Y';
+			},
+			getEditorCKEditorPath: function() {
+				return '/o/frontend-editor-ckeditor-web';
+			},
+			getFilter: function() {
+				var filter = 'raw';
+
+				
+					
+						filter = 'min';
+					
+					
+
+				return filter;
+			},
+			getFilterConfig: function() {
+				var instance = this;
+
+				var filterConfig = null;
+
+				if (!instance.getCombine()) {
+					filterConfig = {
+						replaceStr: '.js' + instance.getStaticResourceURLParams(),
+						searchExp: '\\.js$'
+					};
+				}
+
+				return filterConfig;
+			},
+			getJavaScriptRootPath: function() {
+				return '/o/frontend-js-web';
+			},
+			getPortletRootPath: function() {
+				return '/html/portlet';
+			},
+			getStaticResourceURLParams: function() {
+				return '?browserId=other&minifierType=&languageId=en_US&t=1790886069859';
+			}
+		};
+
+		Liferay.authToken = 'KsCNNj18';
+
+		
+
+		Liferay.currentURL = '\x2f-\x2fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents';
+		Liferay.currentURLEncoded = '\x252F-\x252Fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents';
+	// ]]>
+</script>
+
+<script data-senna-track="temporary" type="text/javascript">window.__CONFIG__= {basePath: '',combine: true, defaultURLParams: null, explainResolutions: false, exposeGlobal: false, logLevel: 'warn', moduleType: 'module', namespace:'Liferay', reportMismatchedAnonymousModules: 'warn', resolvePath: '/o/js_resolve_modules', url: '/combo/?browserId=other&minifierType=js&languageId=en_US&t=1790886069859&', waitTimeout: 7000};</script><script data-senna-track="permanent" src="/o/frontend-js-loader-modules-extender/loader.js?&mac=kuyYLzgmJRuntKLenfFpZdHstco=&browserId=other&languageId=en_US&minifierType=js" type="text/javascript"></script><script data-senna-track="permanent" src="/combo?browserId=other&minifierType=js&languageId=en_US&t=1790886069859&/o/frontend-js-aui-web/aui/aui/aui-min.js&/o/frontend-js-aui-web/liferay/modules.js&/o/frontend-js-aui-web/liferay/aui_sandbox.js&/o/frontend-js-aui-web/aui/attribute-base/attribute-base-min.js&/o/frontend-js-aui-web/aui/attribute-complex/attribute-complex-min.js&/o/frontend-js-aui-web/aui/attribute-core/attribute-core-min.js&/o/frontend-js-aui-web/aui/attribute-observable/attribute-observable-min.js&/o/frontend-js-aui-web/aui/attribute-extras/attribute-extras-min.js&/o/frontend-js-aui-web/aui/event-custom-base/event-custom-base-min.js&/o/frontend-js-aui-web/aui/event-custom-complex/event-custom-complex-min.js&/o/frontend-js-aui-web/aui/oop/oop-min.js&/o/frontend-js-aui-web/aui/aui-base-lang/aui-base-lang-min.js&/o/frontend-js-aui-web/liferay/dependency.js&/o/frontend-js-aui-web/liferay/util.js&/o/frontend-js-web/liferay/dom_task_runner.js&/o/frontend-js-web/liferay/events.js&/o/frontend-js-web/liferay/lazy_load.js&/o/frontend-js-web/liferay/liferay.js&/o/frontend-js-web/liferay/global.bundle.js&/o/frontend-js-web/liferay/portlet.js&/o/frontend-js-web/liferay/workflow.js&/o/frontend-js-module-launcher/webpack_federation.js&/o/oauth2-provider-web/js/liferay.js" type="text/javascript"></script>
+<script data-senna-track="temporary" type="text/javascript">window.Liferay = Liferay || {}; window.Liferay.OAuth2 = {getAuthorizeURL: function() {return 'https://usa.honda-ri.com/o/oauth2/authorize';}, getBuiltInRedirectURL: function() {return 'https://usa.honda-ri.com/o/oauth2/redirect';}, getIntrospectURL: function() { return 'https://usa.honda-ri.com/o/oauth2/introspect';}, getTokenURL: function() {return 'https://usa.honda-ri.com/o/oauth2/token';}, getUserAgentApplication: function(externalReferenceCode) {return Liferay.OAuth2._userAgentApplications[externalReferenceCode];}, _userAgentApplications: {}}</script><script data-senna-track="temporary" type="text/javascript">try {var MODULE_MAIN='null';var MODULE_PATH='/o/dynamic-data-form-field-file-form-field';;(function() {
+	AUI().applyConfig(
+		{
+			groups: {
+				'form-field-file-group': {
+					base: MODULE_PATH + '/',
+					combine: Liferay.AUI.getCombine(),
+					filter: Liferay.AUI.getFilterConfig(),
+					modules: {
+						'form-field-file-form-field': {
+							condition: {
+								trigger: 'liferay-ddm-form-renderer'
+							},
+							path: 'form-field-file_field.js',
+							requires: [
+								'liferay-ddm-form-renderer-field'
+							]
+						},
+						'form-field-file-form-field-template': {
+							condition: {
+								trigger: 'liferay-ddm-form-renderer'
+							},
+							path: 'form-field-file.soy.js',
+							requires: [
+								'soyutils'
+							]
+						}
+					},
+					root: MODULE_PATH + '/'
+				}
+			}
+		}
+	);
+})();} catch(error) {console.error(error);}try {var MODULE_MAIN='exportimport-web@5.0.62/index';var MODULE_PATH='/o/exportimport-web';AUI().applyConfig({groups:{exportimportweb:{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-export-import-export-import":{path:"js/main.js",requires:["aui-datatype","aui-dialog-iframe-deprecated","aui-modal","aui-parse-content","aui-toggler","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='dynamic-data-mapping-web@5.0.74/index';var MODULE_PATH='/o/dynamic-data-mapping-web';!function(){const a=Liferay.AUI;AUI().applyConfig({groups:{ddm:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:a.getFilterConfig(),modules:{"liferay-ddm-form":{path:"ddm_form.js",requires:["aui-base","aui-datatable","aui-datatype","aui-image-viewer","aui-parse-content","aui-set","aui-sortable-list","json","liferay-form","liferay-map-base","liferay-translation-manager","liferay-util-window"]},"liferay-portlet-dynamic-data-mapping":{condition:{trigger:"liferay-document-library"},path:"main.js",requires:["arraysort","aui-form-builder-deprecated","aui-form-validator","aui-map","aui-text-unicode","json","liferay-menu","liferay-translation-manager","liferay-util-window","text"]},"liferay-portlet-dynamic-data-mapping-custom-fields":{condition:{trigger:"liferay-document-library"},path:"custom_fields.js",requires:["liferay-portlet-dynamic-data-mapping"]}},root:MODULE_PATH+"/js/"}}})}();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='journal-web@5.0.124/index';var MODULE_PATH='/o/journal-web';AUI().applyConfig({groups:{journal:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-journal-navigation":{path:"navigation.js",requires:["aui-component","liferay-portlet-base","liferay-search-container"]},"liferay-portlet-journal":{path:"main.js",requires:["aui-base","aui-dialog-iframe-deprecated","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='commerce-product-content-web@4.0.79/index';var MODULE_PATH='/o/commerce-product-content-web';AUI().applyConfig({groups:{productcontent:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),modules:{"liferay-commerce-product-content":{path:"product_content.js",requires:["aui-base","aui-io-request","aui-parse-content","liferay-portlet-base","liferay-portlet-url"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='commerce-frontend-impl@4.0.35/index';var MODULE_PATH='/o/commerce-frontend-impl';AUI().applyConfig({groups:{commercefrontend:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),modules:{"liferay-commerce-frontend-asset-categories-selector":{path:"liferay_commerce_frontend_asset_categories_selector.js",requires:["aui-tree","liferay-commerce-frontend-asset-tag-selector"]},"liferay-commerce-frontend-asset-tag-selector":{path:"liferay_commerce_frontend_asset_tag_selector.js",requires:["aui-io-plugin-deprecated","aui-live-search-deprecated","aui-template-deprecated","aui-textboxlist-deprecated","datasource-cache","liferay-service-datasource"]},"liferay-commerce-frontend-management-bar-state":{condition:{trigger:"liferay-management-bar"},path:"management_bar_state.js",requires:["liferay-management-bar"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='staging-taglib@7.0.35/index';var MODULE_PATH='/o/staging-taglib';AUI().applyConfig({groups:{stagingTaglib:{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-export-import-management-bar-button":{path:"export_import_entity_management_bar_button/js/main.js",requires:["aui-component","liferay-search-container","liferay-search-container-select"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-js-state-web@1.0.14/index';var MODULE_PATH='/o/frontend-js-state-web';AUI().applyConfig({groups:{state:{mainModule:MODULE_MAIN}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-js-react-web@5.0.25/index';var MODULE_PATH='/o/frontend-js-react-web';AUI().applyConfig({groups:{react:{mainModule:MODULE_MAIN}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='frontend-js-components-web@2.0.45/index';var MODULE_PATH='/o/frontend-js-components-web';AUI().applyConfig({groups:{components:{mainModule:MODULE_MAIN}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='staging-processes-web@5.0.42/index';var MODULE_PATH='/o/staging-processes-web';AUI().applyConfig({groups:{stagingprocessesweb:{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-staging-processes-export-import":{path:"js/main.js",requires:["aui-datatype","aui-dialog-iframe-deprecated","aui-modal","aui-parse-content","aui-toggler","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='contacts-web@5.0.46/index';var MODULE_PATH='/o/contacts-web';AUI().applyConfig({groups:{contactscenter:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-contacts-center":{path:"main.js",requires:["aui-io-plugin-deprecated","aui-toolbar","autocomplete-base","datasource-io","json-parse","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='invitation-invite-members-web@5.0.26/index';var MODULE_PATH='/o/invitation-invite-members-web';AUI().applyConfig({groups:{"invite-members":{base:MODULE_PATH+"/invite_members/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-portlet-invite-members":{path:"main.js",requires:["aui-base","autocomplete-base","datasource-io","datatype-number","liferay-portlet-base","liferay-util-window","node-core"]}},root:MODULE_PATH+"/invite_members/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='segments-simulation-web@3.0.24/index';var MODULE_PATH='/o/segments-simulation-web';AUI().applyConfig({groups:{segmentssimulation:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-portlet-segments-simulation":{path:"main.js",requires:["aui-base","liferay-portlet-base"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='item-selector-taglib@5.3.2/index.es';var MODULE_PATH='/o/item-selector-taglib';AUI().applyConfig({groups:{"item-selector-taglib":{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-image-selector":{path:"image_selector/js/image_selector.js",requires:["aui-base","liferay-item-selector-dialog","liferay-portlet-base","uploader"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='calendar-web@5.0.68/index';var MODULE_PATH='/o/calendar-web';AUI().applyConfig({groups:{calendar:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-calendar-a11y":{path:"calendar_a11y.js",requires:["calendar"]},"liferay-calendar-container":{path:"calendar_container.js",requires:["aui-alert","aui-base","aui-component","liferay-portlet-base"]},"liferay-calendar-date-picker-sanitizer":{path:"date_picker_sanitizer.js",requires:["aui-base"]},"liferay-calendar-interval-selector":{path:"interval_selector.js",requires:["aui-base","liferay-portlet-base"]},"liferay-calendar-interval-selector-scheduler-event-link":{path:"interval_selector_scheduler_event_link.js",requires:["aui-base","liferay-portlet-base"]},"liferay-calendar-list":{path:"calendar_list.js",requires:["aui-template-deprecated","liferay-scheduler"]},"liferay-calendar-message-util":{path:"message_util.js",requires:["liferay-util-window"]},"liferay-calendar-recurrence-converter":{path:"recurrence_converter.js",requires:[]},"liferay-calendar-recurrence-dialog":{path:"recurrence.js",requires:["aui-base","liferay-calendar-recurrence-util"]},"liferay-calendar-recurrence-util":{path:"recurrence_util.js",requires:["aui-base","liferay-util-window"]},"liferay-calendar-reminders":{path:"calendar_reminders.js",requires:["aui-base"]},"liferay-calendar-remote-services":{path:"remote_services.js",requires:["aui-base","aui-component","liferay-calendar-util","liferay-portlet-base"]},"liferay-calendar-session-listener":{path:"session_listener.js",requires:["aui-base","liferay-scheduler"]},"liferay-calendar-simple-color-picker":{path:"simple_color_picker.js",requires:["aui-base","aui-template-deprecated"]},"liferay-calendar-simple-menu":{path:"simple_menu.js",requires:["aui-base","aui-template-deprecated","event-outside","event-touch","widget-modality","widget-position","widget-position-align","widget-position-constrain","widget-stack","widget-stdmod"]},"liferay-calendar-util":{path:"calendar_util.js",requires:["aui-datatype","aui-io","aui-scheduler","aui-toolbar","autocomplete","autocomplete-highlighters"]},"liferay-scheduler":{path:"scheduler.js",requires:["async-queue","aui-datatype","aui-scheduler","dd-plugin","liferay-calendar-a11y","liferay-calendar-message-util","liferay-calendar-recurrence-converter","liferay-calendar-recurrence-util","liferay-calendar-util","liferay-scheduler-event-recorder","liferay-scheduler-models","promise","resize-plugin"]},"liferay-scheduler-event-recorder":{path:"scheduler_event_recorder.js",requires:["dd-plugin","liferay-calendar-util","resize-plugin"]},"liferay-scheduler-models":{path:"scheduler_models.js",requires:["aui-datatype","dd-plugin","liferay-calendar-util"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-taglib@11.0.0/index';var MODULE_PATH='/o/frontend-taglib';AUI().applyConfig({groups:{"frontend-taglib":{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-management-bar":{path:"management_bar/js/management_bar.js",requires:["aui-component","liferay-portlet-base"]},"liferay-sidebar-panel":{path:"sidebar_panel/js/sidebar_panel.js",requires:["aui-base","aui-debounce","aui-parse-content","liferay-portlet-base"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/document-library-web@6.0.135/document_library/js/index';var MODULE_PATH='/o/document-library-web';AUI().applyConfig({groups:{dl:{base:MODULE_PATH+"/document_library/js/legacy/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"document-library-upload-component":{path:"DocumentLibraryUpload.js",requires:["aui-component","aui-data-set-deprecated","aui-overlay-manager-deprecated","aui-overlay-mask-deprecated","aui-parse-content","aui-progressbar","aui-template-deprecated","liferay-search-container","querystring-parse-simple","uploader"]}},root:MODULE_PATH+"/document_library/js/legacy/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='portal-workflow-task-web@5.0.54/index';var MODULE_PATH='/o/portal-workflow-task-web';AUI().applyConfig({groups:{workflowtasks:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-workflow-tasks":{path:"main.js",requires:["liferay-util-window"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='portal-search-web@6.0.90/index';var MODULE_PATH='/o/portal-search-web';AUI().applyConfig({groups:{search:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-search-bar":{path:"search_bar.js",requires:[]},"liferay-search-custom-filter":{path:"custom_filter.js",requires:[]},"liferay-search-facet-util":{path:"facet_util.js",requires:[]},"liferay-search-modified-facet":{path:"modified_facet.js",requires:["aui-form-validator","liferay-search-facet-util"]},"liferay-search-modified-facet-configuration":{path:"modified_facet_configuration.js",requires:["aui-node"]},"liferay-search-sort-configuration":{path:"sort_configuration.js",requires:["aui-node"]},"liferay-search-sort-util":{path:"sort_util.js",requires:[]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='product-navigation-taglib@6.0.42/index';var MODULE_PATH='/o/product-navigation-taglib';AUI().applyConfig({groups:{controlmenu:{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-product-navigation-control-menu":{path:"control_menu/js/product_navigation_control_menu.js",requires:["aui-node","event-touch"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='frontend-editor-alloyeditor-web@5.0.37/index';var MODULE_PATH='/o/frontend-editor-alloyeditor-web';AUI().applyConfig({groups:{alloyeditor:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-alloy-editor":{path:"alloyeditor.js",requires:["aui-component","liferay-portlet-base","timers"]},"liferay-alloy-editor-source":{path:"alloyeditor_source.js",requires:["aui-debounce","liferay-fullscreen-source-editor","liferay-source-editor","plugin"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}</script>
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	// <![CDATA[
+		
+			
+				
+		
+
+		
+
+		
+	// ]]>
+</script>
+
+
+
+
+
+	
+		
+
+			
+
+			
+		
+		
+
+
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://usa.honda-ri.com/o/liferay-hri-theme/css/main.css?browserId=other&amp;themeId=liferayhritheme_WAR_liferayhritheme&amp;languageId=en_US&amp;t=1790886068000" id="liferayThemeCSS" rel="stylesheet" type="text/css" />
+
+
+
+
+	<style data-senna-track="temporary" type="text/css">
+		.b22-company-logo{
+ padding: 0 !important;
+}
+	</style>
+
+
+
+
+
+	<style data-senna-track="temporary" type="text/css">
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_footer_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_globalsites_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_e4DEwAkdPoWE_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+	</style>
+
+
+<link href="/o/commerce-frontend-js/styles/main.css" rel="stylesheet" type="text/css" /><style data-senna-track="temporary" type="text/css">
+	:root {
+		--container-max-sm: 540px;
+		--h4-font-size: 1rem;
+		--font-weight-bold: 700;
+		--rounded-pill: 50rem;
+		--display4-weight: 300;
+		--danger: #da1414;
+		--display2-size: 5.5rem;
+		--body-bg: #fff;
+		--display2-weight: 300;
+		--display1-weight: 300;
+		--display3-weight: 300;
+		--box-shadow-sm: 0 .125rem .25rem rgba(0, 0, 0, .075);
+		--font-weight-lighter: lighter;
+		--h3-font-size: 1.1875rem;
+		--btn-outline-primary-hover-border-color: #0b5fff;
+		--transition-collapse: height .35s ease;
+		--blockquote-small-color: #6b6c7e;
+		--gray-200: #f1f2f5;
+		--btn-secondary-hover-background-color: #f7f8f9;
+		--gray-600: #6b6c7e;
+		--secondary: #6b6c7e;
+		--btn-outline-primary-color: #0b5fff;
+		--btn-link-hover-color: #004ad7;
+		--hr-border-color: rgba(0, 0, 0, .1);
+		--hr-border-margin-y: 1rem;
+		--light: #f1f2f5;
+		--btn-outline-primary-hover-color: #0b5fff;
+		--btn-secondary-background-color: #fff;
+		--btn-outline-secondary-hover-border-color: transparent;
+		--display3-size: 4.5rem;
+		--primary: #0b5fff;
+		--container-max-md: 720px;
+		--border-radius-sm: 0.1875rem;
+		--display-line-height: 1.2;
+		--h6-font-size: 0.8125rem;
+		--h2-font-size: 1.375rem;
+		--aspect-ratio-4-to-3: 75%;
+		--spacer-10: 10rem;
+		--font-weight-semi-bold: 600;
+		--font-weight-normal: 400;
+		--dark: #272833;
+		--blockquote-small-font-size: 80%;
+		--h5-font-size: 0.875rem;
+		--blockquote-font-size: 1.25rem;
+		--brand-color-3: #2e5aac;
+		--brand-color-2: #6b6c7e;
+		--brand-color-1: #0b5fff;
+		--transition-fade: opacity .15s linear;
+		--display4-size: 3.5rem;
+		--border-radius-lg: 0.375rem;
+		--btn-primary-hover-color: #fff;
+		--display1-size: 6rem;
+		--brand-color-4: #30313f;
+		--black: #000;
+		--lighter: #f7f8f9;
+		--gray-300: #e7e7ed;
+		--gray-700: #495057;
+		--btn-secondary-border-color: #cdced9;
+		--btn-outline-secondary-hover-color: #272833;
+		--body-color: #272833;
+		--btn-outline-secondary-hover-background-color: rgba(39, 40, 51, 0.03);
+		--btn-primary-color: #fff;
+		--btn-secondary-color: #6b6c7e;
+		--btn-secondary-hover-border-color: #cdced9;
+		--box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, .175);
+		--container-max-lg: 960px;
+		--btn-outline-primary-border-color: #0b5fff;
+		--aspect-ratio: 100%;
+		--gray-dark: #393a4a;
+		--aspect-ratio-16-to-9: 56.25%;
+		--box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+		--white: #fff;
+		--warning: #b95000;
+		--info: #2e5aac;
+		--hr-border-width: 1px;
+		--btn-link-color: #0b5fff;
+		--gray-400: #cdced9;
+		--gray-800: #393a4a;
+		--btn-outline-primary-hover-background-color: #f0f5ff;
+		--btn-primary-hover-background-color: #0053f0;
+		--btn-primary-background-color: #0b5fff;
+		--success: #287d3c;
+		--font-size-sm: 0.875rem;
+		--btn-primary-border-color: #0b5fff;
+		--font-family-base: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+		--spacer-0: 0;
+		--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+		--lead-font-size: 1.25rem;
+		--border-radius: 0.25rem;
+		--spacer-9: 9rem;
+		--font-weight-light: 300;
+		--btn-secondary-hover-color: #272833;
+		--spacer-2: 0.5rem;
+		--spacer-1: 0.25rem;
+		--spacer-4: 1.5rem;
+		--spacer-3: 1rem;
+		--spacer-6: 4.5rem;
+		--spacer-5: 3rem;
+		--spacer-8: 7.5rem;
+		--border-radius-circle: 50%;
+		--spacer-7: 6rem;
+		--font-size-lg: 1.125rem;
+		--aspect-ratio-8-to-3: 37.5%;
+		--font-family-sans-serif: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+		--gray-100: #f7f8f9;
+		--font-weight-bolder: 900;
+		--container-max-xl: 1248px;
+		--btn-outline-secondary-color: #6b6c7e;
+		--gray-500: #a7a9bc;
+		--h1-font-size: 1.625rem;
+		--gray-900: #272833;
+		--text-muted: #a7a9bc;
+		--btn-primary-hover-border-color: transparent;
+		--btn-outline-secondary-border-color: #cdced9;
+		--lead-font-weight: 300;
+		--font-size-base: 0.875rem;
+	}
+</style>
+<script>
+Liferay.Loader.require(
+'@liferay/frontend-js-state-web@1.0.14',
+function(FrontendJsState) {
+try {
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script><script>
+Liferay.Loader.require(
+'frontend-js-spa-web@5.0.35/init',
+function(frontendJsSpaWebInit) {
+try {
+(function() {
+frontendJsSpaWebInit.default({"navigationExceptionSelectors":":not([target=\"_blank\"]):not([data-senna-off]):not([data-resource-href]):not([data-cke-saved-href]):not([data-cke-saved-href])","cacheExpirationTime":-1,"clearScreensCache":true,"portletsBlacklist":["com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet","com_liferay_site_navigation_directory_web_portlet_SitesDirectoryPortlet","com_liferay_questions_web_internal_portlet_QuestionsPortlet","com_liferay_account_admin_web_internal_portlet_AccountUsersRegistrationPortlet","com_liferay_portal_language_override_web_internal_portlet_PLOPortlet","com_liferay_login_web_portlet_LoginPortlet","com_liferay_login_web_portlet_FastLoginPortlet"],"validStatusCodes":[221,490,494,499,491,492,493,495,220],"debugEnabled":false,"loginRedirect":"","excludedPaths":["/c/document_library","/documents","/image"],"userNotification":{"message":"It looks like this is taking longer than expected.","title":"Oops","timeout":30000},"requestTimeout":0})
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	if (window.Analytics) {
+		window._com_liferay_document_library_analytics_isViewFileEntry = false;
+	}
+</script>
+
+<script type="text/javascript">
+Liferay.on(
+	'ddmFieldBlur', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldBlurred',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					focusDuration: event.focusDuration,
+					formId: event.formId,
+					page: event.page
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFieldFocus', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldFocused',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					formId: event.formId,
+					page: event.page
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormPageShow', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'pageViewed',
+				'Form',
+				{
+					formId: event.formId,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormSubmit', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formSubmitted',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormView', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formViewed',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+</script><script>
+
+</script>
+
+    <link href="/o/liferay-hri-theme/images/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+    <link href="/o/liferay-hri-theme/images/favicon.ico" type="image/x-icon" rel="icon"/>
+    <link href="/o/liferay-hri-theme/images/favicon.png" type="image/png" rel="shortcut icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <script>
+        var show_header_search = false;
+        var imagePath = 'https://usa.honda-ri.com/o/liferay-hri-theme/images';
+        var fullCssPath = '/liferay-hri-theme_SERVLET_CONTEXT_/css';
+        var rootPath = '/o/liferay-hri-theme';
+    </script>
+</head>
+
+<body class="controls-visible other  yui3-skin-sam signed-out public-page site">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="Quick Links" class="bg-dark cadmin d-lg-block d-none quick-access-nav text-center text-white" id="pest_quickAccessNav">
+		<ul class="list-unstyled mb-0">
+			
+				<li>
+					<a class="d-block p-2 sr-only sr-only-focusable text-reset" href="#main-content">
+						Skip to Content
+					</a>
+				</li>
+			
+
+			
+		</ul>
+	</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="wrapper" class="b22-theme-container">
+
+    <header id="banner" role="banner">
+        <div class="b22-theme-header">
+            <div class="navbar-header" id="heading">
+
+                <div class="float-right user-personal-bar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet_  portlet-static portlet-static-end portlet-decorate portlet-user-personal-bar " id="p_p_id_com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet_">
+		<span id="p_com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		<span class="sign-in text-default" role="presentation">
+			<a href="https://usa.honda-ri.com/c/portal/login?p_l_id=285340" class="sign-in text-default" id="_com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet_ored____" data-redirect="false" ><svg aria-hidden="true" class="lexicon-icon lexicon-icon-user" focusable="false" ><use href="https://usa.honda-ri.com/o/liferay-hri-theme/images/clay/icons.svg#user"></use></svg><span class="ml-2 taglib-icon-label">Sign In</span></a>
+		</span>
+
+		<script type="text/javascript">
+(function() {var $ = AUI.$;var _ = AUI._;
+			var signInLink = document.querySelector('.sign-in > a');
+
+			if (signInLink && signInLink.dataset.redirect === 'false') {
+				var signInURL = 'https://usa.honda-ri.com/c/portal/login?p_l_id=285340';
+
+				var modalSignInURL = Liferay.Util.addParams(
+					'windowState=exclusive',
+					signInURL
+				);
+
+				var setModalContent = function (html) {
+					var modalBody = document.querySelector('.liferay-modal-body');
+
+					if (modalBody) {
+						var fragment = document
+							.createRange()
+							.createContextualFragment(html);
+
+						modalBody.innerHTML = '';
+
+						modalBody.appendChild(fragment);
+					}
+				};
+
+				var loading = false;
+				var redirect = false;
+				var html = '';
+				var modalOpen = false;
+
+				var fetchModalSignIn = function () {
+					if (loading || html) {
+						return;
+					}
+
+					loading = true;
+
+					Liferay.Util.fetch(modalSignInURL)
+						.then((response) => {
+							return response.text();
+						})
+						.then((response) => {
+							if (!loading) {
+								return;
+							}
+
+							loading = false;
+
+							if (!response) {
+								redirect = true;
+
+								return;
+							}
+
+							html = response;
+
+							if (modalOpen) {
+								setModalContent(response);
+							}
+						})
+						.catch(() => {
+							redirect = true;
+						});
+				};
+
+				signInLink.addEventListener('mouseover', fetchModalSignIn);
+				signInLink.addEventListener('focus', fetchModalSignIn);
+
+				signInLink.addEventListener('click', (event) => {
+					event.preventDefault();
+
+					if (redirect) {
+						Liferay.Util.navigate(signInURL);
+
+						return;
+					}
+
+					Liferay.Util.openModal({
+						bodyHTML: html ? html : '<span class="loading-animation">',
+						containerProps: {
+							className: '',
+						},
+						height: '400px',
+						onClose: function () {
+							loading = false;
+							redirect = false;
+							html = '';
+							modalOpen = false;
+						},
+						onOpen: function () {
+							modalOpen = true;
+
+							if (html && document.querySelector('.loading-animation')) {
+								setModalContent(html);
+							}
+						},
+						size: 'md',
+						title: '\u0053\u0069\u0067\u006e\u0020\u0049\u006e',
+					});
+				});
+			}
+		})();
+
+</script><script>
+
+</script>
+	
+
+		
+	
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+                </div>
+            </div>
+            
+            
+            <div class="d-none d-sm-block">
+<div class="hri-top-navigation">
+    <div class="container-fluid">
+        <a class="logo default-logo hri-top-navigation__logo-container" href="/" title="Go to Honda">
+            <img class="b22-company-logo" alt="" width="170"
+                 src="/o/liferay-hri-theme/images/honda-main-logo.png"/>
+        </a>
+
+        <div class="hri-top-navigation__search" role="search">
+            <!--com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_  portlet-static portlet-static-end portlet-barebone portlet-search-bar nav-search-bar" id="p_p_id_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_">
+		<span id="p_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<div class="b22-theme-portlet-container">
+    <section class="portlet" id="portlet_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch">
+
+
+        <div class="portlet-content">
+
+            
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="https://usa.honda-ri.com/search" class="form  " data-fm-namespace="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_" id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_fm" method="get" name="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_fm" >
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_formDate"    name="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_formDate"     type="hidden" value="1793178301794"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+			
+
+			
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<fieldset class="search-bar"  >
+	
+		
+			<legend class="sr-only">
+				Search Bar
+			</legend>
+		
+	
+
+	<div class="show  " id="Content" role="presentation">
+		<div class="panel-body">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field search-bar-empty-search-input form-control"  id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_emptySearchEnabled"    name="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_emptySearchEnabled"     type="hidden" value="false"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+	<div class="input-group search-bar-simple">
+			<div class="input-group-item search-bar-keywords-input-wrapper">
+				<input
+					class="form-control input-group-inset input-group-inset-before search-bar-keywords-input"
+					data-qa-id="searchInput"
+					id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_zubd"
+					name="q"
+					placeholder="Search..."
+					title="Search"
+					type="text"
+					value=""
+				/>
+
+				<div class="input-group-inset-item input-group-inset-item-before">
+					<button aria-label="Search" class="btn btn-unstyled" type="submit">
+<svg class="lexicon-icon lexicon-icon-search" role="presentation" viewBox="0 0 512 512" ><use xlink:href="https://usa.honda-ri.com/o/liferay-hri-theme/images/clay/icons.svg#search" /></svg>					</button>
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_scope"    name="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_scope"     type="hidden" value=""   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+			</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	</div>
+</fieldset>
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+</form>
+
+
+
+<script>
+AUI().use(
+  'liferay-form',
+function(A) {
+(function() {
+var $ = AUI.$;var _ = AUI._;
+	Liferay.Form.register(
+		{
+			id: '_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_fm'
+
+			
+				, fieldRules: [
+
+					
+
+				]
+			
+
+			
+
+			, validateOnBlur: true
+		}
+	);
+
+	var onDestroyPortlet = function(event) {
+		if (event.portletId === 'com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch') {
+			delete Liferay.Form._INSTANCES['_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_fm'];
+		}
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	
+
+	Liferay.fire(
+		'_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_formReady',
+		{
+			formName: '_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_fm'
+		}
+	);
+})();
+});
+
+</script>
+
+		<script>
+AUI().use(
+  'liferay-search-bar',
+  'aui-base',
+function(A) {
+(function() {
+var $ = AUI.$;var _ = AUI._;
+			if (!A.one('#_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_reactSearchBar')) {
+				new Liferay.Search.SearchBar(A.one('#_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_fm'));
+			}
+		
+})();
+});
+
+</script>
+	
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+        </div>
+    </section>
+</div>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+        </div>
+        <div class="hri-top-navigation__global-sites float-right">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-barebone portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_globalsites_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_globalsites"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<div class="b22-theme-portlet-container">
+    <section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_globalsites">
+
+
+        <div class="portlet-content">
+
+            
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						<div class="" data-fragments-editor-item-id="29844-283753" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="283751" data-analytics-asset-title="Global sites" data-analytics-asset-type="web-content">
+			
+
+			<p><a class="selected">HRI USA</a> <a href="http://www.honda-ri.de/" target="_blank">HRI Europe</a> <a href="http://www.jp.honda-ri.com/en/" target="_blank">HRI Japan</a> <a href="https://www.hondainnovations.com">Honda Innovations</a></p>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+						</div>
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+        </div>
+    </section>
+</div>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+</div><div class="hri-main-navigation">
+    <div class="container-fluid">
+
+        <div aria-expanded="false" class="navbar navbar-expand-sm" id="navigationCollapse">
+                <nav class="sort-pages modify-pages site-navigation" id="navigation" role="navigation">
+
+                    <div id="mainNavigationContainer" class="navbar-left">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-barebone portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_">
+		<span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<div class="b22-theme-portlet-container">
+    <section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet">
+
+
+        <div class="portlet-content">
+
+            
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+<style type="text/css">
+    .b-main-nav-container .delete-tab{
+        display:none;
+    }
+    @media print{
+    	.b22-theme-container a:after {
+	        content: unset;
+	    }
+	    .b22-theme-container .b-carousel--caption {
+            bottom: -140px;
+        }
+        .b22-theme-container .item-content .item-left .circular-image {
+			max-width: none !important;
+		}
+    }
+    
+    
+@media (max-width: 768px) {
+  .hri-main-navigation {
+    margin: 20px 0 30px 0; }
+    .hri-main-navigation .nav > li > a {
+      color: #fff; }
+    .hri-main-navigation .navbar-collapse {
+      padding-left: 0px;
+      padding-right: 0px; }
+    .hri-main-navigation .portlet {
+      margin-bottom: 0px; }
+    .hri-main-navigation .b-main-nav-container .b-main-nav-tabs {
+      white-space: nowrap;
+      overflow-y: hidden;
+      overflow-x: scroll;
+      height: auto; }
+      .hri-main-navigation .b-main-nav-container .b-main-nav-tabs > li > a {
+        font-size: 12px; }
+      .hri-main-navigation .b-main-nav-container .b-main-nav-tabs > li:first-of-type {
+        margin-left: 20px; }
+      .hri-main-navigation .b-main-nav-container .b-main-nav-tabs > li:hover > a {
+        background-color: #f4f4f4;
+        color: #29353D; }
+      .hri-main-navigation .b-main-nav-container .b-main-nav-tabs > li > a.b-active-page {
+        background-color: #cd1129;
+        color: #fff; } }
+
+    
+</style>
+
+    <div class="b-main-nav-wrapper">
+        <div id="sections-tab" class="b-main-nav-container sub-navbar" id="navbar_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet">
+
+            <ul aria-label="Site Pages" 
+            class="b-main-nav-tabs b-background-dark navbar-site nav" role="menubar">
+                <h1 class="hide-accessible">Navigation</h1>
+
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item                                 b-border-right__light-color
+" id="layout_63"  role="presentation">
+                            <a aria-labelledby="layout_63"  
+                            class="tab-label tab-content   Home " href='https://usa.honda-ri.com/home'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> Home</div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item                                 b-border-right__light-color
+" id="layout_36"  role="presentation">
+                            <a aria-labelledby="layout_36"  
+                            class="tab-label tab-content   Scientific Domains " href='https://usa.honda-ri.com/scientific-domains'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> Scientific Domains</div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item                                 b-border-right__light-color
+" id="layout_2"  role="presentation">
+                            <a aria-labelledby="layout_2"  
+                            class="tab-label tab-content   Research " href='https://usa.honda-ri.com/research'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> Research</div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item                                 b-border-right__light-color
+" id="layout_77"  role="presentation">
+                            <a aria-labelledby="layout_77"  
+                            class="tab-label tab-content   Publications " href='https://usa.honda-ri.com/publications'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> Publications</div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item                                 b-border-right__light-color
+" id="layout_6"  role="presentation">
+                            <a aria-labelledby="layout_6"  
+                            class="tab-label tab-content   News &amp; Events " href='https://usa.honda-ri.com/news'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> News &amp; Events</div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item                                 b-border-right__light-color
+" id="layout_8"  role="presentation">
+                            <a aria-labelledby="layout_8"  
+                            class="tab-label tab-content   Datasets &amp; Software " href='https://usa.honda-ri.com/datasets'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> Datasets &amp; Software</div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item                                 b-border-right__light-color
+" id="layout_7"  role="presentation">
+                            <a aria-labelledby="layout_7"  
+                            class="tab-label tab-content   About HRI " href='https://usa.honda-ri.com/about-us'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> About HRI</div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item selected active " id="layout_4" aria-selected='true' role="presentation">
+                            <a aria-labelledby="layout_4"  
+                            class="tab-label tab-content  -active  Careers b-active-page" href='https://usa.honda-ri.com/careers'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> Careers</div>
+                            </a>
+                        </li>
+
+            </ul>
+        </div>
+    </div>
+
+<script>
+AUI().use(
+  'liferay-navigation-interaction',
+function(A) {
+(function() {
+var $ = AUI.$;var _ = AUI._;        var navigation = A.one('#navbar_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet');
+
+        if (navigation) {
+            navigation.plug(Liferay.NavigationInteraction);         
+        }
+
+        Liferay.Data.NAV_INTERACTION_LIST_SELECTOR = '.navbar-site';
+        Liferay.Data.NAV_LIST_SELECTOR = '.navbar-site';
+})();
+});
+
+</script>
+	
+	
+	
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+        </div>
+    </section>
+</div>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+                    </div>
+
+
+                </nav>
+        </div>
+
+    </div>
+</div>            </div>
+            <div class="d-sm-none">
+
+<div class="hri-top-navigation">
+    <div class="container-fluid">
+        <div class="hri-top-navigation__global-sites-container">
+            <p>Welcome to Honda HRI US!</p>
+            <div class="dropdown hri-top-navigation__global-sites float-right">
+                <button class="dropbtn" type="button" data-toggle="collapse" data-target=".dropdown-content">Other Regions ˅
+                </button>
+                <div class="dropdown-content collapse">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-barebone portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_globalsites_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_globalsites"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<div class="b22-theme-portlet-container">
+    <section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_globalsites">
+
+
+        <div class="portlet-content">
+
+            
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						<div class="" data-fragments-editor-item-id="29844-283753" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="283751" data-analytics-asset-title="Global sites" data-analytics-asset-type="web-content">
+			
+
+			<p><a class="selected">HRI USA</a> <a href="http://www.honda-ri.de/" target="_blank">HRI Europe</a> <a href="http://www.jp.honda-ri.com/en/" target="_blank">HRI Japan</a> <a href="https://www.hondainnovations.com">Honda Innovations</a></p>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+						</div>
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+        </div>
+    </section>
+</div>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="hri-top-navigation__logo-container">
+            <a class="logo default-logo" href="/web/hri-us-redesign" title="Go to Honda">
+                <img class="b22-company-logo" alt="" width="120"
+                     src="/o/liferay-hri-theme/images/honda-main-logo.png"/>
+            </a>
+        </div>
+
+        <div class="hri-top-navigation__search navbar-form navbar-right" role="search">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_portal_search_web_portlet_SearchPortlet_  portlet-static portlet-static-end portlet-decorate portlet-search " id="p_p_id_com_liferay_portal_search_web_portlet_SearchPortlet_">
+		<span id="p_com_liferay_portal_search_web_portlet_SearchPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<div class="b22-theme-portlet-container">
+    <section class="portlet" id="portlet_com_liferay_portal_search_web_portlet_SearchPortlet">
+
+
+        <div class="portlet-content">
+
+            
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="https://usa.honda-ri.com/job-position-detail?p_p_id=com_liferay_portal_search_web_portlet_SearchPortlet&amp;p_p_lifecycle=0&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_com_liferay_portal_search_web_portlet_SearchPortlet_mvcPath=%2Fsearch.jsp&amp;_com_liferay_portal_search_web_portlet_SearchPortlet_redirect=https%3A%2F%2Fusa.honda-ri.com%2Fjob-position-detail%3Fp_p_id%3Dcom_liferay_portal_search_web_portlet_SearchPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview" class="form  " data-fm-namespace="_com_liferay_portal_search_web_portlet_SearchPortlet_" id="_com_liferay_portal_search_web_portlet_SearchPortlet_fm" method="get" name="_com_liferay_portal_search_web_portlet_SearchPortlet_fm" >
+	
+		<fieldset class="input-container" disabled="disabled">
+			<legend class="sr-only">Search</legend>
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate"    name="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate"     type="hidden" value="1793178301807"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+	<input name="p_p_id" type="hidden" value="com_liferay_portal_search_web_portlet_SearchPortlet" /><input name="p_p_lifecycle" type="hidden" value="0" /><input name="p_p_state" type="hidden" value="maximized" /><input name="p_p_mode" type="hidden" value="view" /><input name="_com_liferay_portal_search_web_portlet_SearchPortlet_mvcPath" type="hidden" value="/search.jsp" /><input name="_com_liferay_portal_search_web_portlet_SearchPortlet_redirect" type="hidden" value="https://usa.honda-ri.com/job-position-detail?p_p_id=com_liferay_portal_search_web_portlet_SearchPortlet&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view" />
+
+	<div class="form-group-autofit search-input-group">
+		<div class="form-group-item">
+			<div class="input-group">
+				<div class="input-group-item">
+					<input class="form-control input-group-inset input-group-inset-after search-input search-portlet-keywords-input" id="_com_liferay_portal_search_web_portlet_SearchPortlet_keywords" name="_com_liferay_portal_search_web_portlet_SearchPortlet_keywords" placeholder="Search" type="text" value="" />
+
+					<div class="input-group-inset-item input-group-inset-item-after">
+						<button class="btn btn-light btn-unstyled" onclick="_com_liferay_portal_search_web_portlet_SearchPortlet_search();" type="submit">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<span
+			class=""
+
+			
+
+			
+		>
+			
+				
+					
+
+
+	
+		<span class="c-inner" tabindex="-1"  id="fehs____"><svg aria-hidden="true" class="lexicon-icon lexicon-icon-search" focusable="false" ><use href="https://usa.honda-ri.com/o/liferay-hri-theme/images/clay/icons.svg#search"></use></svg></span>
+	
+	
+
+
+	
+		
+	
+
+				
+			
+		</span>
+	
+
+
+
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+
+		
+
+		
+			
+			
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_portal_search_web_portlet_SearchPortlet_scope"    name="_com_liferay_portal_search_web_portlet_SearchPortlet_scope"     type="hidden" value="this-site"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+			
+		
+	</div>
+
+	<script type="text/javascript">
+
+		window._com_liferay_portal_search_web_portlet_SearchPortlet_search = function () {
+			var keywords =
+				document._com_liferay_portal_search_web_portlet_SearchPortlet_fm._com_liferay_portal_search_web_portlet_SearchPortlet_keywords.value;
+
+			keywords = keywords.replace(/^\s+|\s+$/, '');
+
+			if (keywords != '') {
+				submitForm(document._com_liferay_portal_search_web_portlet_SearchPortlet_fm);
+			}
+		};
+	
+
+</script><script>
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		</fieldset>
+	
+</form>
+
+
+
+<script>
+AUI().use(
+  'liferay-form',
+function(A) {
+(function() {
+var $ = AUI.$;var _ = AUI._;
+	Liferay.Form.register(
+		{
+			id: '_com_liferay_portal_search_web_portlet_SearchPortlet_fm'
+
+			
+				, fieldRules: [
+
+					
+
+				]
+			
+
+			
+				, onSubmit: function(event) {
+					_com_liferay_portal_search_web_portlet_SearchPortlet_search(); event.preventDefault();
+				}
+			
+
+			, validateOnBlur: true
+		}
+	);
+
+	var onDestroyPortlet = function(event) {
+		if (event.portletId === 'com_liferay_portal_search_web_portlet_SearchPortlet') {
+			delete Liferay.Form._INSTANCES['_com_liferay_portal_search_web_portlet_SearchPortlet_fm'];
+		}
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	
+		A.all('#_com_liferay_portal_search_web_portlet_SearchPortlet_fm .input-container').removeAttribute('disabled');
+	
+
+	Liferay.fire(
+		'_com_liferay_portal_search_web_portlet_SearchPortlet_formReady',
+		{
+			formName: '_com_liferay_portal_search_web_portlet_SearchPortlet_fm'
+		}
+	);
+})();
+});
+
+</script>
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+        </div>
+    </section>
+</div>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+</div><div class="hri-main-navigation">
+    <div class="container">
+
+        <div aria-expanded="false" class="" id="navigationCollapseMobile">
+            <nav class="sort-pages modify-pages site-navigation" id="navigation" role="navigation">
+
+
+                <div id="mainNavigationContainer" class="navbar-right">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-barebone portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_">
+		<span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<div class="b22-theme-portlet-container">
+    <section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet">
+
+
+        <div class="portlet-content">
+
+            
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+<style type="text/css">
+    .b-main-nav-container .delete-tab{
+        display:none;
+    }
+    @media print{
+    	.b22-theme-container a:after {
+	        content: unset;
+	    }
+	    .b22-theme-container .b-carousel--caption {
+            bottom: -140px;
+        }
+        .b22-theme-container .item-content .item-left .circular-image {
+			max-width: none !important;
+		}
+    }
+    
+    
+@media (max-width: 768px) {
+  .hri-main-navigation {
+    margin: 20px 0 30px 0; }
+    .hri-main-navigation .nav > li > a {
+      color: #fff; }
+    .hri-main-navigation .navbar-collapse {
+      padding-left: 0px;
+      padding-right: 0px; }
+    .hri-main-navigation .portlet {
+      margin-bottom: 0px; }
+    .hri-main-navigation .b-main-nav-container .b-main-nav-tabs {
+      white-space: nowrap;
+      overflow-y: hidden;
+      overflow-x: scroll;
+      height: auto; }
+      .hri-main-navigation .b-main-nav-container .b-main-nav-tabs > li > a {
+        font-size: 12px; }
+      .hri-main-navigation .b-main-nav-container .b-main-nav-tabs > li:first-of-type {
+        margin-left: 20px; }
+      .hri-main-navigation .b-main-nav-container .b-main-nav-tabs > li:hover > a {
+        background-color: #f4f4f4;
+        color: #29353D; }
+      .hri-main-navigation .b-main-nav-container .b-main-nav-tabs > li > a.b-active-page {
+        background-color: #cd1129;
+        color: #fff; } }
+
+    
+</style>
+
+    <div class="b-main-nav-wrapper">
+        <div id="sections-tab" class="b-main-nav-container sub-navbar" id="navbar_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet">
+
+            <ul aria-label="Site Pages" 
+            class="b-main-nav-tabs b-background-dark navbar-site nav" role="menubar">
+                <h1 class="hide-accessible">Navigation</h1>
+
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item                                 b-border-right__light-color
+" id="layout_63"  role="presentation">
+                            <a aria-labelledby="layout_63"  
+                            class="tab-label tab-content   Home " href='https://usa.honda-ri.com/home'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> Home</div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item                                 b-border-right__light-color
+" id="layout_36"  role="presentation">
+                            <a aria-labelledby="layout_36"  
+                            class="tab-label tab-content   Scientific Domains " href='https://usa.honda-ri.com/scientific-domains'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> Scientific Domains</div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item                                 b-border-right__light-color
+" id="layout_2"  role="presentation">
+                            <a aria-labelledby="layout_2"  
+                            class="tab-label tab-content   Research " href='https://usa.honda-ri.com/research'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> Research</div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item                                 b-border-right__light-color
+" id="layout_77"  role="presentation">
+                            <a aria-labelledby="layout_77"  
+                            class="tab-label tab-content   Publications " href='https://usa.honda-ri.com/publications'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> Publications</div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item                                 b-border-right__light-color
+" id="layout_6"  role="presentation">
+                            <a aria-labelledby="layout_6"  
+                            class="tab-label tab-content   News &amp; Events " href='https://usa.honda-ri.com/news'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> News &amp; Events</div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item                                 b-border-right__light-color
+" id="layout_8"  role="presentation">
+                            <a aria-labelledby="layout_8"  
+                            class="tab-label tab-content   Datasets &amp; Software " href='https://usa.honda-ri.com/datasets'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> Datasets &amp; Software</div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item                                 b-border-right__light-color
+" id="layout_7"  role="presentation">
+                            <a aria-labelledby="layout_7"  
+                            class="tab-label tab-content   About HRI " href='https://usa.honda-ri.com/about-us'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> About HRI</div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+                        
+                        <li class="lfr-nav-item selected active " id="layout_4" aria-selected='true' role="presentation">
+                            <a aria-labelledby="layout_4"  
+                            class="tab-label tab-content  -active  Careers b-active-page" href='https://usa.honda-ri.com/careers'  role="menuitem">
+                                <div class="tab-title"> <layout=navItem.getLayout() /> Careers</div>
+                            </a>
+                        </li>
+
+            </ul>
+        </div>
+    </div>
+
+<script>
+AUI().use(
+  'liferay-navigation-interaction',
+function(A) {
+(function() {
+var $ = AUI.$;var _ = AUI._;        var navigation = A.one('#navbar_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet');
+
+        if (navigation) {
+            navigation.plug(Liferay.NavigationInteraction);         
+        }
+
+        Liferay.Data.NAV_INTERACTION_LIST_SELECTOR = '.navbar-site';
+        Liferay.Data.NAV_LIST_SELECTOR = '.navbar-site';
+})();
+});
+
+</script>
+	
+	
+	
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+        </div>
+    </section>
+</div>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+                </div>
+
+            </nav>
+        </div>
+
+    </div>
+</div>            </div>
+            
+        
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12">
+                        <section id="content">
+                            <h1 class="hide-accessible">Research Intern: Policy Learning and Action Grounding for Multimodal Embodied Agents - Honda Research Institute USA</h1>
+                            <div id="selectable"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<style type="text/css">
+			.master-layout-fragment .portlet-header {
+				display: none;
+			}
+		</style>
+
+		
+
+		<div class="main-content" id="main-content" role="main">
+	<div class="portlet-layout row hri-full-width-column">
+		<div class="col-md-12 portlet-column portlet-column-only" id="column-1">
+			<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-decorate portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_e4DEwAkdPoWE_">
+		<span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_e4DEwAkdPoWE"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<div class="b22-theme-portlet-container">
+    <section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_e4DEwAkdPoWE">
+
+
+        <div class="portlet-content">
+
+            
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		<!-- START: ADT Careers Positions Menu -->
+
+<style type="text/css">
+    .b-nav-container{
+        padding-left: 0px;
+    }
+
+    .b-nav-tabs {
+        border: none;
+    }
+
+    .b-nav__positions-text {
+        margin-bottom: 10px;
+    }
+
+    .b-nav-tabs.navbar-site > li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .b-nav-tabs > li > a {
+        background: white;
+        border: 1px solid #428BCA;
+        border-radius: 4px;
+        color: black;
+        text-align: center;
+    }
+
+    .b-nav-tabs > li.active > a,
+    .b-nav-tabs > li:hover > a {
+        background: #CD1129;
+        border: 1px solid #CD1129;
+        color: white;
+    }
+
+
+
+    .b-nav-tabs > li .tab-title {
+        font-family: 'Open Sans';
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .b-nav__positions-text {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .b-nav__positions-text span {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    @media (min-width: 220px) and (max-width: 768px) {
+        .b-nav-tabs.navbar-site > li {
+            margin-right: 10px;
+        }
+
+        .b-nav__positions-text {
+            display: none;        }
+    }
+    
+    //START: aui rules
+
+    .nav > li > a, .nav > li > span, .nav-heading > a, .nav-heading > span {
+        display: block;
+        padding: 9px 16px;
+        position: relative;
+        word-wrap: break-word;
+    }
+
+    .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 10px 15px;
+    }
+
+    //END: aui rules
+
+</style>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div id="sections-tab" class="b-nav-container sub-navbar" id="navbar_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_e4DEwAkdPoWE">
+
+                <ul aria-label="Site Pages"
+                class="b-nav-tabs b-background-dark navbar-site nav" role="menubar">
+                    <h1 class="hide-accessible">Navigation</h1>
+                    <div class="b-nav__positions-text">
+                        <span>Types of positions</span>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                            <li class="lfr-nav-item                                     b-border-right__light-color
+" id="layout_63"  role="presentation">
+                                <a aria-labelledby="layout_63" 
+                                class="tab-label tab-content   Home " href='https://usa.honda-ri.com/home'  role="menuitem">
+                                    <div class="tab-title"> <layout=navItem.getLayout() /> Home</div>
+                                </a>
+                            </li>
+
+
+
+
+
+
+
+
+
+                            <li class="lfr-nav-item dropdown                                     b-border-right__light-color
+" id="layout_36"  role="presentation">
+                                <a aria-labelledby="layout_36" aria-haspopup='true'
+                                class="tab-label tab-content  dropdown-toggle Scientific Domains " href='https://usa.honda-ri.com/scientific-domains'  role="menuitem">
+                                    <div class="tab-title"> <layout=navItem.getLayout() /> Scientific</div>
+                                </a>
+                            </li>
+
+
+
+
+
+
+
+
+
+                            <li class="lfr-nav-item dropdown                                     b-border-right__light-color
+" id="layout_2"  role="presentation">
+                                <a aria-labelledby="layout_2" aria-haspopup='true'
+                                class="tab-label tab-content  dropdown-toggle Research " href='https://usa.honda-ri.com/research'  role="menuitem">
+                                    <div class="tab-title"> <layout=navItem.getLayout() /> Research</div>
+                                </a>
+                            </li>
+
+
+
+
+
+
+
+
+
+                            <li class="lfr-nav-item                                     b-border-right__light-color
+" id="layout_77"  role="presentation">
+                                <a aria-labelledby="layout_77" 
+                                class="tab-label tab-content   Publications " href='https://usa.honda-ri.com/publications'  role="menuitem">
+                                    <div class="tab-title"> <layout=navItem.getLayout() /> Publications</div>
+                                </a>
+                            </li>
+
+
+
+
+
+
+
+
+
+                            <li class="lfr-nav-item                                     b-border-right__light-color
+" id="layout_6"  role="presentation">
+                                <a aria-labelledby="layout_6" 
+                                class="tab-label tab-content   News &amp; Events " href='https://usa.honda-ri.com/news'  role="menuitem">
+                                    <div class="tab-title"> <layout=navItem.getLayout() /> News</div>
+                                </a>
+                            </li>
+
+
+
+
+
+
+
+
+
+                            <li class="lfr-nav-item dropdown                                     b-border-right__light-color
+" id="layout_8"  role="presentation">
+                                <a aria-labelledby="layout_8" aria-haspopup='true'
+                                class="tab-label tab-content  dropdown-toggle Datasets &amp; Software " href='https://usa.honda-ri.com/datasets'  role="menuitem">
+                                    <div class="tab-title"> <layout=navItem.getLayout() /> Datasets</div>
+                                </a>
+                            </li>
+
+
+
+
+
+
+
+
+
+                            <li class="lfr-nav-item                                     b-border-right__light-color
+" id="layout_7"  role="presentation">
+                                <a aria-labelledby="layout_7" 
+                                class="tab-label tab-content   About HRI " href='https://usa.honda-ri.com/about-us'  role="menuitem">
+                                    <div class="tab-title"> <layout=navItem.getLayout() /> About</div>
+                                </a>
+                            </li>
+
+
+
+
+
+
+
+
+
+                            <li class="lfr-nav-item dropdown selected active " id="layout_4" aria-selected='true' role="presentation">
+                                <a aria-labelledby="layout_4" aria-haspopup='true'
+                                class="tab-label tab-content  -active dropdown-toggle Careers b-active-page" href='https://usa.honda-ri.com/careers'  role="menuitem">
+                                    <div class="tab-title"> <layout=navItem.getLayout() /> Careers</div>
+                                </a>
+                            </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+<!-- END: ADT Careers Positions Menu -->
+	
+	
+	
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+        </div>
+    </section>
+</div>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_  portlet-static portlet-static-end portlet-decorate portlet-asset-publisher " id="p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_SgMsVAEFxU9G_">
+		<span id="p_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_SgMsVAEFxU9G"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<div class="b22-theme-portlet-container">
+    <section class="portlet" id="portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_SgMsVAEFxU9G">
+
+
+        <div class="portlet-content">
+
+            
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="asset-full-content clearfix mb-5 default-asset-publisher show-asset-title " data-fragments-editor-item-id="29844-1671957" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+
+	
+
+	
+
+	
+		<div class="align-items-center d-flex mb-2">
+			<p class="component-title h4">
+				
+					<a class="header-back-to lfr-portal-tooltip" href="https://usa.honda-ri.com/job-position-detail/-/asset_publisher/SgMsVAEFxU9G/" title="Back" aria-label="Back" ><svg class="lexicon-icon lexicon-icon-angle-left" role="presentation" viewBox="0 0 512 512" ><use xlink:href="https://usa.honda-ri.com/o/liferay-hri-theme/images/clay/icons.svg#angle-left" /></svg></a>
+				
+
+				
+					<span class="asset-title d-inline">
+						Research Intern: Policy Learning and Action Grounding for Multimodal Embodied Agents
+					</span>
+				
+			</p>
+
+			
+				
+			
+		</div>
+	
+
+	<span class="asset-anchor lfr-asset-anchor" id="1671962"></span>
+
+	
+
+	<div class="asset-content mb-3">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="1671955" data-analytics-asset-title="Research Intern: Policy Learning and Action Grounding for Multimodal Embodied Agents" data-analytics-asset-type="web-content">
+			
+
+			<!-- =================== START: Job Posting Template =================== -->
+<style type="text/css">
+
+	.apply-title {
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+	
+	.apply p {
+		font-size: 1.3rem;
+	}
+
+  .alert-danger.alert-danger-content {
+    display: none;
+  }
+
+    .b-job-position {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .b-job-position__title h1 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 63px;
+        line-height: 67px;
+    }
+
+    .b-job-position__description {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .b-job-position__description b {
+        font-weight: 700;
+    }
+
+    .b-job-position__description .b-job-number,
+    .b-job-position__description .b-job-location {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 5px;
+    }
+
+    .b-job-position__description .b-job-location {
+        font-weight: 600;
+        color: #999;
+        margin-bottom: 5px;
+    }
+
+    .b-job-position__description .b-job-summary {
+      margin-top: 5px;
+      margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+
+    @media ( max-width: 768px ) {
+
+        .b-job-position__title h1 {
+            font-size: 42px;
+            line-height: 44px;
+            word-break: break-word;
+        }
+
+        .b-job-position__description {
+          margin-top: 41px;
+        }
+
+        .b-job-position__description .b-job-summary {
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .b-job-position__description .b-job-location {
+          margin-bottom: 10px;
+        }
+    }
+
+    /* ===================== START Overwrite form ===================== */
+
+    .b-job-form .ddl-form-basic-info .container-fluid-1280,
+    .b-job-form .container-fluid-1280.ddl-form-builder-app{
+        margin: 0;
+        padding: 0 40px;
+        max-width: unset;
+    }
+    .ddl-form-basic-info .ddl-form-name {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 54px;
+    }
+
+    .ddl-form-basic-info .ddl-form-description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .b-job-form .lfr-ddm-form-field-container label,
+    .b-job-form .form-group.liferay-ddm-form-field-text label {
+        font-weight: 700;
+        color: #29353D;
+        margin-bottom: 11px;
+    }
+
+    .b-job-form .form-group.liferay-ddm-form-field-text textarea {
+        height: 407px!important;
+    }
+
+    .b-job-form .form-group.liferay-ddm-form-field-text .field.form-control {
+        border: 1px solid #999999;
+        border-radius: 4px;
+        padding-left: 10px;
+    }
+
+    .b-job-form .lfr-ddm-form-field-container {
+        padding-top: unset;
+        padding-bottom: 20px;
+    }
+
+    .b-job-form .taglib-captcha {
+        text-align: center;
+    }
+
+    .b-job-form .taglib-captcha input {
+        width: 200px;
+        margin: auto;
+    }
+
+    .b-job-form input[type="file"].form-control  {
+      display: none;
+    }
+
+    .b-job-form select.form-control {
+      padding: 10px;
+    }
+
+    .b-job-form select.form-control,
+    .b-job-form .form-control::placeholder {
+      line-height: 20px;
+      font-size: 16px;
+      color: #999;
+      font-weight: 400;
+    }
+
+    .b-job-form select.form-control,
+    .b-job-form .b-custom-upload-file {
+      border: 1px solid #999999;
+      border-radius: 4px;
+    }
+
+    .b-job-form .b-custom-upload-file{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 407px;
+    }
+
+    .b-job-form .b-custom-upload-file__message-validation{
+      display: none;
+      margin-top: 10px;
+      color: #cd1129;
+      font-weight: 600;
+    }
+
+    .b-job-form .b-custom-upload-file--error {
+      border: 1px solid #cd1129;
+    }
+
+    .b-job-form .b-custom-upload-file__button {
+      border: 1px solid #428BCA;
+      border-radius: 4px;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .b-job-form .b-custom-upload-file__button:hover {
+      background-color: #428BCA;
+      color: white;
+    }
+
+    .b-job-form .b-custom-upload-file__text {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 16px;
+    }
+
+    .b-job-form .btn.btn-primary {
+       border: 1px solid #428BCA;
+       font-size: 16px;
+       font-family: "Open Sans", sans-serif;
+       line-height: 20px;
+       padding: 10px;
+       font-weight: 700;
+       background-color: white;
+       color: #29353D;
+       border-radius: 4px;
+       width: 205px;
+       float: none !important;
+       left: 50%;
+       position: relative;
+       transform: translateX(-50%);
+       margin-bottom: 40px;
+    }
+
+    .b-job-form .btn.btn-lg.btn-primary:hover {
+      background-color: #428BCA;
+      color: white;
+    }
+		
+		.b-job-form textarea {
+      height: 350px;
+      resize: none;
+    }
+
+    .b-job-form .cover-letter-text-area-container {
+      z-index: 99;
+    }
+		
+		.b-job-form .liferay-ddm-form-field-document-library .input-group {
+			border: 1px solid #C1C6CE;
+			border-radius: 4px;
+			padding: 155px 20px 155px 20px;
+		}
+		
+		@media ( min-width: 768px ) {
+			.b-job-form .email-row {
+				margin-top: -315px;
+			}
+		}
+
+    @media ( max-width: 768px ) {
+      .ddl-form-basic-info .ddl-form-name {
+        margin-top: 96px;
+        font-size: 35px;
+      line-height: 37px;
+      font-weight: 700;
+      }
+    }
+
+    /* =====================  END Overwrite form  ======================*/
+
+    /* =====================  START Notification Box styles  ======================*/
+    .notification{
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 99999;
+      display: none;
+      max-width: 350px;
+      border: 1px solid;
+    }
+    .notification-text{
+      padding: 30px;
+    }
+    .error{
+      background-color: #fff;
+    }
+    .success{
+      background-color: #fff;
+    }
+    .notification-tittle{
+      display: block;
+      font-weight: bold;
+      padding: 30px;
+      background-color: #D53F43;
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .notification.success .notification-tittle {
+      background-color: #197419;
+    }
+
+    .notification-tittle .glyphicon{
+      margin-left: 5px;
+    }
+    /* =====================  END Notification Box styles  ======================*/
+
+    @media ( max-width:  768px ) {
+      .b-job-form .form-group.liferay-ddm-form-field-text textarea {
+          height: 207px!important;
+      }
+
+      .b-job-form .b-custom-upload-file{
+        height: 140px;
+      }
+      .b-job-position{
+        padding-right: 5px;
+        padding-left: 5px;
+      }
+      .b-job-form .ddl-form-basic-info .container-fluid-1280,
+      .b-job-form .container-fluid-1280.ddl-form-builder-app{
+        padding: 0 20px;
+      }
+    }
+
+    /* =====================  Styles for the modal when the form issend  ======================*/
+    .processModal{
+        position: fixed;
+        z-index: 20;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.4);
+    }
+    .processDialog{
+        max-width: 400px;
+        text-align: center;
+        padding: 25px 15px;
+        background-color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 15% auto;
+        border: 1px solid #428BCA;
+        border-radius: 10px;
+        font-family: "Open Sans", Arial, sans-serif;
+    }
+
+</style>
+
+
+<div class="processModal hide">
+    <div class="processDialog">Your application is being processed</div>
+</div>
+
+<div class="container-fluid">
+    <div class="b-job-position">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="b-job-position__title">
+                    <h1>Research Intern: Policy Learning and Action Grounding for Multimodal Embodied Agents</h1>
+                </div>
+                <div class="b-job-position__description">
+                    <div class="b-job-number">
+                        <span>Job Number:</span> <span>P25INT-69</span>
+                    </div>
+                    <div class="b-job-summary">
+                        ​Honda Research Institute USA (HRI-US) is seeking a self-motivated research intern to advance policy learning and action grounding for multimodal embodied agents. The intern will investigate methods that enable intelligent agents to connect multimodal perception, task context, and prior knowledge with effective actions in physical or simulated environments. The research may encompass policy and skill acquisition, multimodal representation learning, learning from demonstrations or interaction, and generalization across tasks, environments, and embodiments. The specific research questions will be shaped jointly based on evolving project priorities and the candidate’s expertise, with the goal of producing high-quality research and advancing the capabilities of embodied agents.
+                    </div>
+                    <div class="b-job-location">San Jose, CA</div>
+                    <div class="b-job-body"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+	<tbody>
+		<tr>
+			<td nowrap="true" valign="top" width="113px">
+			<p> </p>
+
+			<p><strong>Key Responsibilities</strong></p>
+			</td>
+			<td id="SPFieldNote" valign="top" width="350px">
+			<p> </p>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap="true" valign="top" width="113px">
+			<ul>
+				<li>​Formulate and investigate research problems related to policy learning, action grounding, and multimodal embodied intelligence.</li>
+				<li>Develop learning methods that connect multimodal observations and task information to goal-directed, executable behavior.</li>
+				<li>Explore different sources of experience and supervision, potentially including human demonstrations, robot data, simulated interaction, language, and large-scale multimodal datasets.</li>
+				<li>Design and evaluate models for acquiring reusable policies, skills, or action representations that generalize across tasks and environments.</li>
+				<li>Build experimental pipelines and conduct systematic evaluations in simulation and/or on robotic platforms.</li>
+				<li>Analyze experimental results, identify research insights, and communicate findings through presentations, technical reports, demonstrations, research publications, and patents.</li>
+				<li>Collaborate with researchers across machine learning, computer vision, multimodal foundation models, and robotics.</li>
+			</ul>
+
+			<p> </p>
+
+			<p><strong>Minimum Qualifications</strong></p>
+			</td>
+			<td id="SPFieldNote" valign="top" width="350px">
+			<p> </p>
+			</td>
+		</tr>
+		<tr>
+			<td nowrap="true" valign="top" width="113px">
+			<ul>
+				<li>​Currently enrolled in a Ph.D. program in Computer Science, Robotics, Electrical or Computer Engineering, Machine Learning, or a closely related field.</li>
+				<li>Strong foundation in machine learning, deep learning, computer vision, robotics, or multimodal learning.</li>
+				<li>Proficiency in Python and experience with a deep-learning framework such as PyTorch or JAX.</li>
+				<li>Research or substantial project experience in at least one relevant area, such as robot learning, embodied AI, multimodal learning, video understanding, imitation learning, or reinforcement learning.</li>
+				<li>Ability to formulate research questions, implement and evaluate learning systems, and analyze experimental results.</li>
+				<li>Strong written and verbal communication skills and the ability to work effectively in a collaborative research environment.</li>
+			</ul>
+
+			<p> </p>
+
+			<p><strong>Bonus Qualifications</strong>​</p>
+
+			<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+				<tbody>
+					<tr>
+						<td id="SPFieldNote" valign="top" width="350px">
+						<ul>
+							<li>​Proficiency with one or more of the following: robot learning, learning from demonstrations, imitation learning, reinforcement learning, multimodal foundation models, vision-language-action models, or world models.</li>
+							<li>Familiarity with policy representations, skill learning, action representations, hierarchical decision-making, or grounded multimodal reasoning.</li>
+							<li>Experience working with video, egocentric observations, human behavior data, robot demonstrations, simulation data, or other forms of embodied experience.</li>
+							<li>Familiarity with robot manipulation, human-to-robot knowledge transfer, cross-embodiment learning, or generalization across tasks and environments.</li>
+							<li>Experience with robotics or simulation platforms such as Isaac Sim, MuJoCo, ManiSkill, RLBench, PyBullet, ROS, or comparable systems.</li>
+							<li>A record of research publications at relevant venues like CVPR, NeurIPS, ICLR, ICRA, ECCV, ICCV, CoRL etc, open-source implementations, and substantial research projects in a relevant area.</li>
+						</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p> </p>
+
+			<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+				<tbody>
+					<tr>
+						<td nowrap="true" valign="top" width="113px">
+						<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+							<tbody>
+								<tr>
+									<td nowrap="true" valign="top" width="113px">
+									<table border="1" cellpadding="1" cellspacing="1">
+										<tbody>
+											<tr>
+												<td><strong>Years of Work Experience Required&nbsp;</strong></td>
+												<td>&nbsp;0</td>
+											</tr>
+											<tr>
+												<td><strong>Desired Start Date</strong></td>
+												<td>&nbsp;1/11/2027</td>
+											</tr>
+											<tr>
+												<td><strong>Internship Duration</strong></td>
+												<td>&nbsp;3 Months</td>
+											</tr>
+											<tr>
+												<td><strong>Position Keywords</strong></td>
+												<td>&nbsp;Robot Learning, Embodied AI, Multimodal Foundation Models&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="b-job-form">
+    <!-- START: Embed Form -->
+
+    <!-- 
+		-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_  portlet-static portlet-static-end portlet-decorate portlet-forms-display " id="p_p_id_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_">
+		<span id="p_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<div class="b22-theme-portlet-container">
+    <section class="portlet" id="portlet_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr">
+
+
+        <div class="portlet-content">
+
+            
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+		
+			
+		
+
+		
+
+		
+			
+			
+				
+
+				<div class="portlet-forms">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="https://usa.honda-ri.com/job-position-detail?p_p_id=com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_javax.portlet.action=%2Fdynamic_data_mapping_form%2Fadd_form_instance_record&amp;p_auth=KsCNNj18" class="form  " data-fm-namespace="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_" id="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_fm" method="post" name="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_fm" data-DDMFormInstanceId="1046795" data-senna-off="true" >
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_formDate"    name="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_formDate"     type="hidden" value="1793178301391"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_currentURL"    name="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_currentURL"     type="hidden" value="https://usa.honda-ri.com/job-position-detail?p_p_id=com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+						
+
+						
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_redirect"    name="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_redirect"     type="hidden" value="https://usa.honda-ri.com/job-position-detail?p_p_id=com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+						
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_groupId"    name="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_groupId"     type="hidden" value="248678"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_formInstanceId"    name="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_formInstanceId"     type="hidden" value="1046795"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_languageId"    name="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_languageId"     type="hidden" value="en_US"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_workflowAction"    name="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_workflowAction"     type="hidden" value="1"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+						
+						
+						
+						
+
+						
+
+						
+
+						
+						
+						
+						
+						
+						
+						
+
+						
+
+						
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						
+
+						
+
+						
+
+						<div class="ddm-form-upload-permission-message hide mt-4">
+							<div class="container-fluid container-fluid-max-xl">
+								<div class="alert alert-warning" role="alert" ><div class="alert-autofit-row autofit-row"><div class="autofit-col"><div class="autofit-section"><span class="alert-indicator"><svg class="lexicon-icon lexicon-icon-warning-full" role="presentation" viewBox="0 0 512 512" ><use xlink:href="https://usa.honda-ri.com/o/liferay-hri-theme/images/clay/icons.svg#warning-full" /></svg></span></div></div><div class="autofit-col autofit-col-expand"><div class="autofit-section"><strong class="lead">Warning:</strong>You do not have the permission to access the upload fields on this form. Contact the form owner or portal administrator to request the access.</div></div></div></div>
+							</div>
+						</div>
+
+						<div class="container-fluid container-fluid-max-xl">
+							<div id="iaug"></div><script>
+Liferay.Loader.require(
+'dynamic-data-mapping-form-web@4.0.127/admin/js/util/ShowPartialResultsAlert',
+'portal-template-react-renderer-impl@5.0.9',
+function(renderFunctioniaug, indexiaug) {
+try {
+(function() {
+indexiaug.render(renderFunctioniaug.default, {"dismissible":true,"portletId":"com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr","showPartialResultsToRespondents":false,"componentId":null,"locale":{"ISO3Country":"USA","ISO3Language":"eng","country":"US","displayCountry":"United States","displayLanguage":"English","displayName":"English (United States)","displayScript":"","displayVariant":"","extensionKeys":[],"language":"en","script":"","unicodeLocaleAttributes":[],"unicodeLocaleKeys":[],"variant":""},"portletNamespace":"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_"}, 'iaug');
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script>
+						</div>
+
+						
+							
+						
+
+						
+
+						<div class="container-fluid container-fluid-max-xl ddm-form-builder-app ddm-form-builder-app-not-ready" id="ddmFormE0q9s8Dz" >
+							<div id="pyhc"></div><script>
+Liferay.Loader.require(
+'portal-template-react-renderer-impl@5.0.9',
+'dynamic-data-mapping-form-web@4.0.127/admin/js/FormView',
+function(indexpyhc, renderFunctionpyhc) {
+try {
+(function() {
+indexpyhc.render(renderFunctionpyhc.default, {"templateNamespace":"ddm.paginated_form","redirectURL":null,"componentId":null,"groupId":"248678","description":"Candidates must have the legal right to work in the U.S.A.​ Please add Cover Letter and CV in the same document","rules":[],"title":"How to apply","locale":{"ISO3Country":"USA","ISO3Language":"eng","country":"US","displayCountry":"United States","displayLanguage":"English","displayName":"English (United States)","displayScript":"","displayVariant":"","extensionKeys":[],"language":"en","script":"","unicodeLocaleAttributes":[],"unicodeLocaleKeys":[],"variant":""},"validateCSRFTokenURL":"https:\/\/usa.honda-ri.com\/job-position-detail?p_p_id=com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=%2Fdynamic_data_mapping_form%2Fvalidate_csrf_token&p_p_cacheability=cacheLevelPage","showCancelButton":false,"showPartialResultsToRespondents":false,"showRequiredFieldsWarning":true,"pages":[{"showRequiredFieldsWarning":true,"description":"","localizedDescription":{"en_US":""},"rows":[{"columns":[{"size":4,"fields":[{"fieldName":"Text64387110","predefinedValue":"","tooltip":"","requireConfirmation":false,"type":"text","dir":"ltr","locale":"en_US","localizedValue":{"en_US":""},"invalidCharacters":"","showLabel":true,"enabled":true,"required":false,"valid":true,"displayStyle":"singleline","requiredErrorMessage":"","instanceId":"5FeCkFDW","visualProperty":false,"repeatable":false,"editOnlyInDefaultLanguage":false,"options":[{"reference":"Option63108252","label":"Option","value":"Option63108252"}],"confirmationLabel":"Confirm","fieldReference":"Name","tip":"","numericInputMask":null,"placeholder":"Enter your name here","value":"","direction":"[\"vertical\"]","visible":true,"confirmationErrorMessage":"The information does not match.","hideField":false,"dataType":"string","errorMessage":"","readOnly":false,"label":"Name","inputMask":false,"normalizeField":false,"visibilityExpression":"","transient":false,"inputMaskFormat":null,"autocompleteEnabled":false,"name":"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_ddm$$Text64387110$5FeCkFDW$0$$en_US","localizable":true}]},{"size":4,"fields":[{"fieldName":"Text40698405","predefinedValue":"","tooltip":"","requireConfirmation":false,"type":"text","dir":"ltr","locale":"en_US","localizedValue":{"en_US":""},"invalidCharacters":"","showLabel":true,"enabled":true,"required":false,"valid":true,"displayStyle":"multiline","requiredErrorMessage":"","instanceId":"YXbkhs9H","visualProperty":false,"repeatable":false,"editOnlyInDefaultLanguage":false,"options":[{"reference":"Option63108252","label":"Option","value":"Option63108252"}],"confirmationLabel":"Confirm","fieldReference":"CoverLetterOptional","tip":"","numericInputMask":null,"placeholder":"Place your Cover Letter here","value":"","direction":"[\"vertical\"]","visible":true,"confirmationErrorMessage":"The information does not match.","hideField":false,"dataType":"string","errorMessage":"","readOnly":false,"label":"Cover Letter (optional)","inputMask":false,"normalizeField":false,"visibilityExpression":"","transient":false,"inputMaskFormat":null,"autocompleteEnabled":false,"name":"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_ddm$$Text40698405$YXbkhs9H$0$$en_US","localizable":true}]},{"size":4,"fields":[{"maximumRepetitions":0,"fieldName":"Upload62711671","evaluable":true,"groupId":"248678","type":"document_library","dir":"ltr","locale":"en_US","localizedValue":{"en_US":"{}"},"showLabel":true,"enabled":true,"required":true,"valid":false,"requiredErrorMessage":"","instanceId":"VmtCVcVQ","visualProperty":false,"repeatable":false,"editOnlyInDefaultLanguage":false,"objectFieldAcceptedFileExtensions":"","options":[],"fieldReference":"ResumeUpload","tip":"","numericInputMask":null,"value":"{}","visible":true,"dataType":"document-library","errorMessage":"This field is required.","readOnly":false,"label":"Resume","inputMask":false,"message":"","folderId":"390672","maximumSubmissionLimitReached":false,"visibilityExpression":"","guestUploadURL":"https:\/\/usa.honda-ri.com\/job-position-detail?p_p_id=com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr&p_p_lifecycle=1&_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_javax.portlet.action=%2Fdynamic_data_mapping_form%2Fupload_file_entry&_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_folderId=390672&_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_formInstanceId=1046795&_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_groupId=248678&_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_objectFieldId=0&p_auth=KsCNNj18","transient":false,"inputMaskFormat":null,"allowGuestUsers":true,"name":"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_ddm$$Upload62711671$VmtCVcVQ$0$$en_US","localizable":true}]}]},{"columns":[{"size":4,"fields":[{"fieldName":"Text67492149","evaluable":true,"predefinedValue":"","tooltip":"","requireConfirmation":false,"type":"text","dir":"ltr","locale":"en_US","localizedValue":{"en_US":""},"invalidCharacters":"","showLabel":true,"enabled":true,"required":true,"valid":false,"displayStyle":"singleline","requiredErrorMessage":"","instanceId":"qaDVFKep","visualProperty":false,"repeatable":false,"editOnlyInDefaultLanguage":false,"options":[{"reference":"Option63108252","label":"Option","value":"Option63108252"}],"confirmationLabel":"Confirm","fieldReference":"Email","tip":"","numericInputMask":null,"placeholder":"Enter your email here","value":"","direction":"[\"vertical\"]","visible":true,"confirmationErrorMessage":"The information does not match.","hideField":false,"dataType":"string","errorMessage":"This field is required.","readOnly":false,"label":"Email","inputMask":false,"normalizeField":false,"visibilityExpression":"","transient":false,"inputMaskFormat":null,"autocompleteEnabled":false,"name":"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_ddm$$Text67492149$qaDVFKep$0$$en_US","localizable":true}]},{"size":4,"fields":[]},{"size":4,"fields":[]}]},{"columns":[{"size":4,"fields":[{"fieldName":"Text60149238","predefinedValue":"","tooltip":"","requireConfirmation":false,"type":"text","dir":"ltr","locale":"en_US","localizedValue":{"en_US":""},"invalidCharacters":"","showLabel":true,"enabled":true,"required":false,"valid":true,"displayStyle":"singleline","requiredErrorMessage":"","instanceId":"KDDZcd2a","visualProperty":false,"repeatable":false,"editOnlyInDefaultLanguage":false,"options":[{"reference":"Option63108252","label":"Option","value":"Option63108252"}],"confirmationLabel":"Confirm","fieldReference":"UniversityName","tip":"","numericInputMask":null,"placeholder":"Enter your university name","value":"","direction":"[\"vertical\"]","visible":true,"confirmationErrorMessage":"The information does not match.","hideField":false,"dataType":"string","errorMessage":"","readOnly":false,"label":"University Name","inputMask":false,"normalizeField":false,"visibilityExpression":"","transient":false,"inputMaskFormat":null,"autocompleteEnabled":false,"name":"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_ddm$$Text60149238$KDDZcd2a$0$$en_US","localizable":true}]},{"size":4,"fields":[]},{"size":4,"fields":[]}]},{"columns":[{"size":4,"fields":[{"fieldName":"SelectFromList21260186","predefinedValue":[],"tooltip":"","type":"select","dir":"ltr","locale":"en_US","localizedValue":{"en_US":[]},"showLabel":true,"enabled":true,"required":false,"valid":true,"requiredErrorMessage":"","instanceId":"qJkQXCXu","visualProperty":false,"strings":{"emptyList":"No results were found.","search":"Search","dynamicallyLoadedData":"Dynamically Loaded Data","chooseOptions":"Choose Options","chooseAnOption":"Choose an Option"},"alphabeticalOrder":false,"repeatable":false,"editOnlyInDefaultLanguage":false,"showEmptyOption":true,"options":[{"reference":"Bachelors","label":"Bachelors (or equivalent)","value":"Option42516824"},{"reference":"Master","label":"Master (or equivalent)","value":"Option62545759"},{"reference":"Doctorate","label":"Doctorate (or equivalent)","value":"Option57255966"},{"reference":"Postgrad","label":"Postgrad","value":"Option25830352"}],"fieldReference":"HighestDegreeEarned","tip":"","numericInputMask":null,"value":[],"visible":true,"defaultSearch":false,"dataType":"string","errorMessage":"","multiple":false,"readOnly":false,"label":"Highest Degree Earned","inputMask":false,"visibilityExpression":"","transient":false,"inputMaskFormat":null,"name":"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_ddm$$SelectFromList21260186$qJkQXCXu$0$$en_US","localizable":true,"dataSourceType":"manual"}]},{"size":8,"fields":[]}]},{"columns":[{"size":4,"fields":[{"fieldName":"Text32226641","predefinedValue":"","tooltip":"","requireConfirmation":false,"type":"text","dir":"ltr","locale":"en_US","localizedValue":{"en_US":""},"invalidCharacters":"","showLabel":true,"enabled":true,"required":false,"valid":true,"displayStyle":"singleline","requiredErrorMessage":"","instanceId":"IL265sa6","visualProperty":false,"repeatable":false,"editOnlyInDefaultLanguage":false,"options":[{"reference":"Option63108252","label":"Option","value":"Option63108252"}],"confirmationLabel":"Confirm","fieldReference":"MajorAreaOfStudy","tip":"","numericInputMask":null,"placeholder":"Write your Major Area of Study","value":"","direction":"[\"vertical\"]","visible":true,"confirmationErrorMessage":"The information does not match.","hideField":false,"dataType":"string","errorMessage":"","readOnly":false,"label":"Major Area of Study","inputMask":false,"normalizeField":false,"visibilityExpression":"","transient":false,"inputMaskFormat":null,"autocompleteEnabled":false,"name":"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_ddm$$Text32226641$IL265sa6$0$$en_US","localizable":true}]},{"size":8,"fields":[]}]},{"columns":[{"size":4,"fields":[{"fieldName":"Text15678533","evaluable":true,"predefinedValue":"","tooltip":"","requireConfirmation":false,"type":"text","dir":"ltr","locale":"en_US","localizedValue":{"en_US":""},"invalidCharacters":"","showLabel":true,"enabled":true,"required":true,"valid":false,"displayStyle":"singleline","requiredErrorMessage":"","instanceId":"EtR0MNkb","visualProperty":false,"repeatable":false,"editOnlyInDefaultLanguage":false,"options":[{"reference":"Option95427839","label":"Option","value":"Option95427839"}],"confirmationLabel":"Confirm","fieldReference":"JobNumber","tip":"You can find the Job Number under the header title.","numericInputMask":null,"placeholder":"Enter the Job Number","value":"","direction":"[\"vertical\"]","visible":true,"confirmationErrorMessage":"The information does not match.","hideField":false,"dataType":"string","errorMessage":"This field is required.","readOnly":false,"label":"Job Number","inputMask":false,"normalizeField":false,"visibilityExpression":"","transient":false,"inputMaskFormat":null,"autocompleteEnabled":false,"name":"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_ddm$$Text15678533$EtR0MNkb$0$$en_US","localizable":true}]},{"size":8,"fields":[]}]},{"columns":[{"size":12,"fields":[{"fieldName":"Paragraph51040109","type":"paragraph","dir":"ltr","locale":"en_US","showLabel":true,"enabled":true,"required":false,"valid":true,"instanceId":"y7FT3PFn","visualProperty":false,"repeatable":false,"editOnlyInDefaultLanguage":false,"options":[],"fieldReference":"Paragraph51040109","tip":"","numericInputMask":null,"text":"<p style=\"text-align: center;\"><b>For California applicants:<\/b> Please review the ⁠<a href=\"https:\/\/careers.honda.com\/us\/en\/candidate-privacy-notice\">Honda California Job Applicant Privacy Notice<\/a> before submitting your application.<\/p>\n","visible":true,"dataType":"","errorMessage":"","readOnly":false,"label":"","inputMask":false,"visibilityExpression":"","transient":true,"inputMaskFormat":null,"name":"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_ddm$$Paragraph51040109$y7FT3PFn$0$$en_US","localizable":true}]}]},{"columns":[{"size":12,"fields":[{"fieldName":"_CAPTCHA_","type":"captcha","dir":"ltr","locale":"en_US","showLabel":true,"enabled":true,"required":false,"valid":true,"instanceId":"Wa9DmKYM","visualProperty":false,"repeatable":false,"editOnlyInDefaultLanguage":false,"options":[],"fieldReference":"_CAPTCHA_","tip":"","html":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t<div class=\"my-3 taglib-captcha\">\n\t\t<img alt=\"Text to Identify\" class=\"captcha d-inline-block mb-2\" id=\"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_captcha\" src=\"\/c\/portal\/captcha\/get_image?portletId=com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr&amp;t=1793178301764\" \/>\n\n\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t<span\n\t\t\tclass=\"align-top d-inline-block refresh lfr-portal-tooltip\"\n\n\t\t\t\n\n\t\t\t\n\t\t\t\ttitle=\"Refresh CAPTCHA\"\n\t\t\t\n\t\t>\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<a href=\"javascript:void(0);\" target=\"_self\" class=\" lfr-icon-item taglib-icon\" id=\"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_refreshCaptcha\" >\n\t\t\t\t\t\t\n\n\n\t\n\t\t<span class=\"c-inner\" tabindex=\"-1\"  id=\"qfkd____\"><svg aria-hidden=\"true\" class=\"lexicon-icon lexicon-icon-reload\" focusable=\"false\" ><use href=\"https:\/\/usa.honda-ri.com\/o\/liferay-hri-theme\/images\/clay\/icons.svg#reload\"><\/use><\/svg><\/span>\n\t\n\t\n\n\n\t\n\t\t\n\t\t\t<span class=\"taglib-text hide-accessible sr-only\">Refresh CAPTCHA<\/span>\n\t\t\n\t\n\n\t\t\t\t\t<\/a>\n\t\t\t\t\n\t\t\t\t\n\t\t<\/span>\n\t\n\n\n\n\n\t\t\n\t\t\t\n\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t<div class=\"form-group input-text-wrapper\">\n\n\n\n\n\n\t<label class=\" control-label\" for=\"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_captchaText\">\n\t\t\n\t\t\t\tText Verification\n\n\t\t\t\n\t\t\t\t<span class=\"reference-mark text-warning\"  id=\"uvlz____\"><svg aria-hidden=\"true\" class=\"lexicon-icon lexicon-icon-asterisk\" focusable=\"false\" ><use href=\"https:\/\/usa.honda-ri.com\/o\/liferay-hri-theme\/images\/clay\/icons.svg#asterisk\"><\/use><\/svg><\/span>\n\n\t\t\t\t<span class=\"hide-accessible sr-only\">Required<\/span>\n\t\t\t<\/label>\n\t\t\n\n\n\n\n\n\t\n\n\t\t\n\n\t\t\n\t\t\t\n\t\t\t\t<input  class=\"field form-control\"  id=\"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_captchaText\"    name=\"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_captchaText\"     type=\"text\" value=\"\"  size=\"10\"  \/>\n\t\t\t\n\t\t\n\n\t\t\n\t\n\n\n\n\n\n\t\n\n\n\n\t<\/div>\n\n\n\n\t<\/div>\n\n\t<script type=\"text\/javascript\">\n\n\t\tvar hasEventAttached = false;\n\n\t\tfunction attachEvent() {\n\t\t\tvar refreshCaptcha = document.getElementById(\n\t\t\t\t'_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_refreshCaptcha'\n\t\t\t);\n\n\t\t\tif (refreshCaptcha && !hasEventAttached) {\n\t\t\t\thasEventAttached = true;\n\t\t\t\trefreshCaptcha.addEventListener('click', () => {\n\t\t\t\t\tvar url = Liferay.Util.addParams(\n\t\t\t\t\t\t't=' + Date.now(),\n\t\t\t\t\t\t'\\x2fc\\x2fportal\\x2fcaptcha\\x2fget_image\\x3fportletId\\x3dcom_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr'\n\t\t\t\t\t);\n\n\t\t\t\t\tvar captcha = document.getElementById(\n\t\t\t\t\t\t'_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_captcha'\n\t\t\t\t\t);\n\n\t\t\t\t\tif (captcha) {\n\t\t\t\t\t\tcaptcha.setAttribute('src', url);\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t}\n\t\t}\n\n\t\tattachEvent();\n\n\t\tLiferay.on('_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_simplecaptcha_attachEvent', attachEvent);\n\t\n\n<\/script><script>\n\n<\/script>\n","numericInputMask":null,"value":"","visible":true,"dataType":"string","errorMessage":"","readOnly":false,"label":"","inputMask":false,"visibilityExpression":"","transient":false,"inputMaskFormat":null,"name":"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_ddm$$_CAPTCHA_$Wa9DmKYM$0$$en_US","localizable":false}]}]}],"title":"","enabled":true,"localizedTitle":{"en_US":""}}],"strings":{"next":"Next","previous":"Previous"},"dataEngineModule":"data-engine-js-components-web@1.0.93","showSubmitButton":true,"portletId":"com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr","paginationMode":"multi-pages","validations":{"date":[{"template":"futureDates({name}, \"{parameter}\")","parameterMessage":"","name":"futureDates","label":"Future Dates"},{"template":"pastDates({name}, \"{parameter}\")","parameterMessage":"","name":"pastDates","label":"Past Dates"},{"template":"futureDates({name}, \"{parameter}\") AND pastDates({name}, \"{parameter}\")","parameterMessage":"","name":"dateRange","label":"Range"}],"string":[{"template":"contains({name}, \"{parameter}\")","parameterMessage":"Text","name":"contains","label":"Contains"},{"template":"NOT(contains({name}, \"{parameter}\"))","parameterMessage":"Text","name":"notContains","label":"Does Not Contain"},{"template":"isURL({name})","parameterMessage":"","name":"url","label":"Is a URL"},{"template":"isEmailAddress({name})","parameterMessage":"","name":"email","label":"Is an email"},{"template":"match({name}, \"{parameter}\")","parameterMessage":"Regular Expression","name":"regularExpression","label":"Matches"}],"numeric":[{"template":"{name} == {parameter}","parameterMessage":"Number","name":"eq","label":"Is Equal To"},{"template":"{name} >= {parameter}","parameterMessage":"Number","name":"gteq","label":"Is Greater Than Or Equal To"},{"template":"{name} > {parameter}","parameterMessage":"Number","name":"gt","label":"Is Greater Than"},{"template":"{name} != {parameter}","parameterMessage":"Number","name":"neq","label":"Is Not Equal To"},{"template":"{name} <= {parameter}","parameterMessage":"Number","name":"lteq","label":"Is Less Than Or Equal To"},{"template":"{name} < {parameter}","parameterMessage":"Number","name":"lt","label":"Is Less Than"}]},"containerId":"ddmFormE0q9s8Dz","defaultSiteLanguageId":"en_US","evaluatorURL":"\/o\/dynamic-data-mapping-form-context-provider\/","portletNamespace":"_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_","submitLabel":"Apply","ddmStructureLayoutId":"0","cancelLabel":"Cancel","persistDefaultValues":true,"submittable":true,"editable":false,"displayChartAsTable":false,"defaultLanguageId":"en_US","readOnly":false,"formReportDataURL":"https:\/\/usa.honda-ri.com\/job-position-detail?p_p_id=com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=%2Fdynamic_data_mapping_form%2Fget_form_report_data&p_p_cacheability=cacheLevelPage&_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_formInstanceId=1046795","editingLanguageId":"en_US","viewMode":true,"spritemap":"https:\/\/usa.honda-ri.com\/o\/liferay-hri-theme\/images\/clay\/icons.svg","currentPage":"1"}, 'pyhc');
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script>
+						</div>
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_empty"    name="_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_empty"     type="hidden" value=""   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+</form>
+
+
+
+<script>
+AUI().use(
+  'liferay-form',
+function(A) {
+(function() {
+var $ = AUI.$;var _ = AUI._;
+	Liferay.Form.register(
+		{
+			id: '_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_fm'
+
+			
+				, fieldRules: [
+
+					
+
+							
+
+							{
+								body: '',
+								custom: false,
+								errorMessage: '\u0054\u0068\u0065\u0020\u0063\u0061\u0070\u0074\u0063\u0068\u0061\u002d\u0074\u0065\u0078\u0074\u0020\u0066\u0069\u0065\u006c\u0064\u0020\u0069\u0073\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u002e',
+								fieldName: '_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_captchaText',
+								validatorName: 'required'
+							}
+
+					
+
+				]
+			
+
+			
+
+			, validateOnBlur: true
+		}
+	);
+
+	var onDestroyPortlet = function(event) {
+		if (event.portletId === 'com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr') {
+			delete Liferay.Form._INSTANCES['_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_fm'];
+		}
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	
+
+	Liferay.fire(
+		'_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_formReady',
+		{
+			formName: '_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_fm'
+		}
+	);
+})();
+});
+
+</script>
+				</div>
+
+				<script>
+AUI().use(
+  'aui-base',
+function(A) {
+(function() {
+var $ = AUI.$;var _ = AUI._;
+					var _com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_form;
+
+					function _com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_clearInterval(intervalId) {
+						if (intervalId) {
+							clearInterval(intervalId);
+						}
+					}
+
+					var _com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_intervalId;
+
+					function _com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_clearPortletHandlers(event) {
+						_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_clearInterval(_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_intervalId);
+
+						Liferay.detach('destroyPortlet', _com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_clearPortletHandlers);
+					}
+
+					Liferay.on('destroyPortlet', _com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_clearPortletHandlers);
+
+					
+
+					function _com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_fireFormView() {
+						Liferay.fire('ddmFormView', {
+							formId: '1046795',
+							title: 'How\x20to\x20apply',
+						});
+					}
+
+					
+						
+						
+							function _com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_startAutoExtendSession() {
+								_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_clearInterval(_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_intervalId);
+
+								var tenSeconds = 10000;
+
+								var time = Liferay.Session.get('sessionLength') || tenSeconds;
+
+								window._com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_intervalId = setInterval(
+									_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_extendSession,
+									time / 2
+								);
+							}
+
+							function _com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_extendSession() {
+								Liferay.Session.extend();
+							}
+						
+					
+
+					function _com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_enableForm() {
+						var container = document.querySelector(
+							'#ddmFormE0q9s8Dz'
+						);
+
+						container.classList.remove('ddm-form-builder-app-not-ready');
+					}
+
+					function _com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_initForm() {
+						_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_enableForm();
+						_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_fireFormView();
+
+						
+							
+							
+								_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_startAutoExtendSession();
+							
+						
+					}
+
+					var rememberMe = false;
+
+					window._com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_sessionIntervalId = setInterval(() => {
+						if (Liferay.Session || rememberMe) {
+							clearInterval(_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_sessionIntervalId);
+
+							_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_form = Liferay.component(
+								'ddmFormE0q9s8Dz'
+							);
+
+							if (_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_form) {
+								_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_initForm();
+							}
+							else {
+								Liferay.componentReady(
+									'ddmFormE0q9s8Dz'
+								).then((component) => {
+									_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_form = component;
+
+									if (component) {
+										_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_initForm();
+									}
+								});
+							}
+						}
+					}, 1000);
+				
+})();
+});
+
+</script>
+			
+			
+		
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+        </div>
+    </section>
+</div>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+		
+<!-- END: Embed Form -->
+</div>
+
+<!-- START: HSUPP-107 temporary fix -->
+<div class="apply">
+	<h2 class="apply-title">Alternate Way to Apply</h2>
+	<p> Send an e-mail to careers@honda-ri.com with the following: <br />
+		- Subject line including the job number(s) you are applying for  <br />
+		- Recent CV  <br />
+		- A cover letter highlighting relevant background (Optional) <br />
+	</p>
+	<p> Please, do not contact our office to inquiry about your application status. <br />
+	</p>
+</div>
+<!-- END: HSUPP-107 temporary fix -->
+
+
+
+<script type="text/javascript">
+  AUI().ready(function(){
+    "use strict";
+
+    (function () {
+
+      var id = "portlet_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr";
+      var instanceID = "1stAsPshr";
+
+      var JobOfferData = {
+        id: "P25INT-69",
+        name: "Research Intern: Policy Learning and Action Grounding for Multimodal Embodied Agents",
+        publicationDate: "Sep 4, 2026 3:36:33 AM"
+      };
+      var subject = "Job application - [" + JobOfferData.id + "] - [" + JobOfferData.name + "]";
+      var EmailData = {
+        emailList: "careers@honda-ri.com,careers@honda-ri.com",
+        subject: subject,
+				ccList: "" 
+      };
+			
+			 var combinedEmails = EmailData.emailList;
+       if (EmailData.ccList && EmailData.ccList.trim() !== "") {
+          combinedEmails = EmailData.emailList + "," + EmailData.ccList;
+       }
+
+
+      function parseSubmitResult(html) {
+        // parseHTML with keepScripts=false so nothing executes
+        var $doc = $("<div>").append($.parseHTML(html, document, false));
+
+        var errText = $doc.find(".alert-danger, .portlet-msg-error, .alert-error")
+                          .text().replace(/\s+/g, " ").trim();
+
+        var captchaFailed =
+          /verification|captcha/i.test(errText) ||
+          $doc.find(".taglib-captcha").closest(".has-error").length > 0;
+
+        return { captchaFailed: captchaFailed, errText: errText };
+      }
+
+
+      function setformActions(){
+        
+        var $form = $("#" + id).find("form");
+
+        var formName = $form.find(".ddm-form-name").html();
+        var formID = $form.attr("id");
+        var $formbutton = $form.find("button[type='submit']");
+        var action = $form.attr("action");
+        var formValues = $form.serialize();
+        $formbutton.prop("type", "button");
+        $formbutton.on("click", function () {
+				  $('.processModal').removeClass('hide');
+          $form.submit();
+        });
+
+        $form.on("submit", function ($event) {
+          var isValid = true;
+          var formFields = $(".ddm-field");
+          $.each( formFields, function(i,field) {
+            var labelName = $( field ).find( "label" )[ 0 ]?.innerText;
+            var isRequired = $(field).find(".ddm-label-required").length
+            var value = "";
+            if ( labelName && !labelName.includes("Verification") ) {
+              if ( labelName.includes("Cover") ) {
+                value = $(field).find("textarea")[0].value;
+              } else if ( labelName.includes("Degree") ) {
+                value = $(field).find("option")[0].innerText;
+              } else {
+                value = $(field).find("input")[0].value;
+              }
+              
+            } else if ( labelName && labelName.includes("Verification") ) {
+              value = $(field).find("input")[0].value;
+              if( !value ){
+                isValid = false;
+                showNotification({
+                  title: 'Error!',
+                  text: "Please fill out the required field: " + labelName,
+                  type: 'error',
+                  time: 3000,
+                });
+                $event.preventDefault();
+                return false;
+              }
+            }
+
+            if ( isRequired && !value ) { 
+              isValid = false;
+              showNotification({
+                title: 'Error!',
+                text: "Please fill out the required field: " + labelName,
+                type: 'error',
+                time: 3000,
+              });
+              $event.preventDefault();
+              return false;
+            }
+          });
+
+          if( !isValid ) {
+            return false;
+          }
+
+          $.ajax({
+            type: "POST",
+            url: action,
+            data: $form.serialize(),
+            success: function success(data) {
+              console.log("DATA:", data);
+
+              var result = parseSubmitResult(data);
+
+              if (result.captchaFailed) {
+                $(".processModal").addClass("hide");
+                showNotification({
+                  title: "Error!",
+                  text: result.captchaFailed
+                    ? "The verification text is incorrect. Please try again."
+                    : (result.errText || "We couldn't submit your application."),
+                  type: "error",
+                  time: 4000
+                });
+                return;
+              }
+							
+              //var successCounter = data.match(/Your information was successfully received. Thank you for filling out the form./g).length;
+              //if ( successCounter === 2 ) {
+
+                var values = {};
+                var formFields = $(".ddm-field");
+                $.each( formFields, function(i,field) {
+                  var labelName = $(field).find("label")[0]?.innerText;
+                  if ( labelName && !labelName.includes("Verification") ) {
+                    if ( labelName.includes("Cover") ) {
+                      var value = $(field).find("textarea")[0].value;
+                    } else if ( labelName.includes("Degree") ) {
+                      var value = $(field).find("option")[0].innerText;
+                    } else {
+                      var value = $(field).find("input")[0].value;
+                    }
+                    values[labelName] = value;
+                  }
+                });
+
+                var nform = $('#_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_'+instanceID+'_fm')[0];
+
+                var newform = new FormData(nform);
+
+                var content = "";
+                var keys = Object.keys(values);
+
+                content +=  "<p style=\"color:#9aa2a6; font-size:18px; margin:32px 0 16px 0\">" + "Job Id" + "</p><p style=\"font-size:16px; margin:0\">" + JobOfferData.id + "</p>";
+                content +=  "<p style=\"color:#9aa2a6; font-size:18px; margin:32px 0 16px 0\">" + "Job Title" + "</p><p style=\"font-size:16px; margin:0\">" + JobOfferData.name + "</p>";
+                content +=  "<p style=\"color:#9aa2a6; font-size:18px; margin:32px 0 16px 0\">" + "Published in" + "</p><p style=\"font-size:16px; margin:0\">" + JobOfferData.publicationDate + "</p>";
+                var applicantName = "";
+                keys.forEach(function (key) {
+
+                  if ( !key.includes("Resume") ) {
+                    content +=  "<p style=\"color:#9aa2a6; font-size:18px; margin:32px 0 16px 0\">" + key + "</p><p style=\"font-size:16px; margin:0\">" + values[key] + "</p>";
+                    if ( key === "Name" ) {
+                      applicantName = values[key];
+                    }
+                  }
+
+                });
+
+                var $formFile = $form.find("input[type=hidden][name*='Upload']");
+                var file = JSON.parse($formFile.val());
+                var fileUrl = file["url"];
+                var fileTitle = file["title"];
+                content +=  "<p style=\"color:#9aa2a6; font-size:18px; margin:32px 0 16px 0\">" + "Resume" + "</p><p style=\"font-size:16px; margin:0\"><a href=\'" + fileUrl + "'>" + fileTitle + "</a></p>";
+
+                var user = Liferay.ThemeDisplay.getUserName() !== "" ? Liferay.ThemeDisplay.getUserName(): applicantName;
+                var messageContent = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"&gt;<html xmlns=\"http://www.w3.org/1999/xhtml\"&gt;<head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/><title>Email From Liferay</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/><style></style></head><body style=\"margin: 0; padding: 0;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td><table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" style=\"background-color:#e4e9ec; padding:40px\"><tbody><tr><td><div id=\"x_introduction\" style=\"background-color:#fff; border-radius:4px; margin:0 auto 24px auto; padding:40px\"><h1 align=\"center\" style=\"margin-bottom:24px; margin-top:0\">"+ user +"</h1><p style=\"line-height:30px; margin-bottom:24px; margin-top:0\"> submitted an entry for the "+ "Job Posting" +" form.</div></td></tr><tr><td><h3 style=\"color:#9aa2a6; font-weight:300; margin:8px 0 8px; text-align:center\">Here's what was entered into the form:</h3><div style=\"background-color:#fff; border-radius:4px; margin:0 auto 24px auto; padding:40px\"><h4 style=\"color:#9aa2a6; font-size:21px; font-weight:500; margin:0\"></h4>"+content+"</div></td></tr></tbody></table></td></tr></table></body></html>";
+
+                newform.append("bodyMail", messageContent);
+
+                newform.append("emailList", combinedEmails);
+                newform.append("subject", EmailData.subject );
+
+								console.log(newform)
+
+                $.ajax({
+                  url : "/o/mailer/send",
+                  type: "POST",
+                  enctype: 'multipart/form-data',
+                  cache: false,
+                  contentType: false,
+                  processData: false,
+                  data : newform,
+                  success: function(response){
+                    showNotification({
+                      title: 'Success!',
+                      text: "Your information was sent successfully",
+                      type: 'success',
+                      time: 3000,
+                    });
+
+                    var interval = setInterval(function(){
+                      location.reload();
+                    }, 4000);
+                    
+                  },
+                  error: function(response){
+                    console.error("Error sending mail!");
+                    showNotification({
+                      title: 'Error!',
+                      text: "Missing fields to fill, please try again!",
+                      type: 'error',
+                      time: 3000,
+                    });
+                  }
+                });
+                
+
+              /*}else{
+                console.error("Error sending liferay form!");
+                showNotification({
+                  title: 'Error!',
+                  text: "Missing fields to fill, please try again!",
+                  type: 'error',
+                  time: 3000,
+                });
+
+              } */
+            }
+          });
+          
+          $event.preventDefault();
+
+        });
+
+      }
+
+      function showNotification(notificationObj){
+        $('.processModal').addClass('hide');
+        var divTop = document.createElement("div");
+        divTop.classList.add("notification");
+        divTop.classList.add(notificationObj.type);
+        divTop.setAttribute("id", "notificationPopUp");
+
+        var divContent = document.createElement("div");
+        divContent.classList.add("nofitication-content");
+
+        var spanTitle = document.createElement("span");
+        spanTitle.classList.add("notification-tittle");
+        spanTitle.classList.add("text-capitalize");
+        var titleText = document.createTextNode(notificationObj.title);
+
+
+        var spanTitleIcon = document.createElement("span");
+        spanTitleIcon.classList.add("glyphicon");
+        if(notificationObj.type === "error"){
+          spanTitleIcon.classList.add("glyphicon-remove-circle");
+        }else{
+          spanTitleIcon.classList.add("glyphicon-ok-circle");
+        }
+
+        var divTextContent = document.createElement("div");
+        divTextContent.classList.add("notification-text");
+
+        var spanContent = document.createElement("span");
+        var contentText = document.createTextNode(notificationObj.text);
+
+        spanTitle.appendChild(titleText);
+        spanTitle.appendChild(spanTitleIcon);
+        spanContent.appendChild(contentText);
+        divTextContent.appendChild(spanContent);
+
+        divContent.appendChild(spanTitle);
+        divContent.appendChild(divTextContent);
+
+        divTop.appendChild(divContent);
+        document.body.appendChild(divTop);
+
+        $("#notificationPopUp").slideToggle( "slow" );
+
+        setTimeout(function(){
+          $("#notificationPopUp").slideToggle( "slow" );
+        }, notificationObj.time );
+
+        setTimeout(function(){
+          $("#notificationPopUp").remove();
+          $("#b-email-modal-component__content .lfr-alert-container").hide();
+        }, notificationObj.time + 1500);
+
+
+      }
+
+      var interval = setInterval(function(){
+        var $form = $("#" + id).find("form");
+        var $formbutton = $form.find("button[type='submit']");
+        var $formtextarea = $('.b-job-form').find('textarea');
+        if( $formbutton.length != 0 && $formtextarea.length != 0){
+          clearInterval(interval);
+          console.log("Form button exists && Form text area exists");
+          $('.position-relative')[2].classList.add("email-row");
+          $('.b-job-form').find('textarea')[0].parentNode.classList.add('cover-letter-text-area-container');
+          setformActions();
+        }else{
+          console.log("Form button does not exist");
+        }
+      }, 500);
+
+      function isAValidFile( fileFieldContent, $inputContainer, $errorMessage ){
+        var allowedExtensions =  /(\.docx|\.doc|\.pdf|\.page)$/i;
+
+        if ( fileFieldContent.match( allowedExtensions ) != null ) {
+          if ( $inputContainer.classList.contains("b-custom-upload-file--error") ) {
+            $inputContainer.classList.remove("b-custom-upload-file--error");
+            $errorMessage.classList.remove('show');
+
+          }
+          return true;
+        }
+
+        if ( !$inputContainer.classList.contains("b-custom-upload-file--error") ) {
+          $inputContainer.classList.add("b-custom-upload-file--error");
+          $errorMessage.classList.add('show');
+
+        }
+        return false;
+
+      }
+
+    })(jQuery);
+  });
+</script>
+
+<!-- =================== END: Job Posting Template =================== -->
+
+			
+		</div>
+
+		
+
+	
+
+
+
+
+
+	</div>
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+</div>
+	
+	
+
+
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+        </div>
+    </section>
+</div>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+</div>
+		</div>
+	</div>
+	<div class="portlet-layout row">
+		<div class="col-md-12 portlet-column portlet-column-only" id="column-2">
+			<div class="empty portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-2"></div>
+		</div>
+	</div>
+</div>
+
+	
+
+
+<form action="#" aria-hidden="true" class="hide" id="hrefFm" method="post" name="hrefFm"><span></span><button hidden type="submit">Hidden</button></form>
+
+	
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div><!-- ./row -->
+
+    </div>
+
+    <footer id="footer" role="contentinfo" class="b22-theme-footer">
+        <div class="hri-footer">
+            <div class="container-fluid">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-barebone portlet-journal-content " id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_footer_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_footer"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<div class="b22-theme-portlet-container">
+    <section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_footer">
+
+
+        <div class="portlet-content">
+
+            
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						<div class="" data-fragments-editor-item-id="29844-283745" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="283743" data-analytics-asset-title="Footer" data-analytics-asset-type="web-content">
+			
+
+			<p class="powered-by">Copyright © Honda Research Institute USA, Inc.</p>
+
+<div class="hri-footer__links float-right">
+<ul class="text-muted">
+	<li><a href="/privacy-policy">Privacy Policy</a></li>
+	<li><a href="/legal-terms-and-conditions">Legal Terms and Conditions</a></li>
+	<li id="loginURL" style=""><a href="/login">Login</a></li>
+	<li> </li>
+</ul>
+</div>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+						</div>
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+        </div>
+    </section>
+</div>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+</script><script>
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	// <![CDATA[
+
+		
+
+		Liferay.currentURL = '\x2f-\x2fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents';
+		Liferay.currentURLEncoded = '\x252F-\x252Fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents';
+
+	// ]]>
+</script>
+
+
+
+	
+
+	
+
+	<script type="text/javascript">
+		// <![CDATA[
+			
+				
+
+				
+
+				
+			
+		// ]]>
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<script type="text/javascript">
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onShare = function (data) {
+		if (window.Analytics) {
+			Analytics.send('shared', 'SocialBookmarks', {
+				className: data.className,
+				classPK: data.classPK,
+				type: data.type,
+				url: data.url,
+			});
+		}
+	};
+
+	var onDestroyPortlet = function () {
+		Liferay.detach('socialBookmarks:share', onShare);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('socialBookmarks:share', onShare);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onVote = function (event) {
+		if (window.Analytics) {
+			let title = event.contentTitle;
+
+			if (!title) {
+				const dmNode = document.querySelector(
+					'[data-analytics-file-entry-id="' + event.classPK + '"]'
+				);
+
+				if (dmNode) {
+					title = dmNode.dataset.analyticsFileEntryTitle;
+				}
+			}
+
+			Analytics.send('VOTE', 'Ratings', {
+				className: event.className,
+				classPK: event.classPK,
+				ratingType: event.ratingType,
+				score: event.score,
+				title,
+			});
+		}
+	};
+
+	var onDestroyPortlet = function () {
+		Liferay.detach('ratings:vote', onVote);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('ratings:vote', onVote);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onDestroyPortlet = function () {
+		Liferay.detach('messagePosted', onMessagePosted);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	var onMessagePosted = function (event) {
+		if (window.Analytics) {
+			const eventProperties = {
+				className: event.className,
+				classPK: event.classPK,
+				commentId: event.commentId,
+				text: event.text,
+			};
+
+			const blogNode = document.querySelector(
+				'[data-analytics-asset-id="' + event.classPK + '"]'
+			);
+
+			const dmNode = document.querySelector(
+				'[data-analytics-file-entry-id="' + event.classPK + '"]'
+			);
+
+			if (blogNode) {
+				eventProperties.title = blogNode.dataset.analyticsAssetTitle;
+			}
+			else if (dmNode) {
+				eventProperties.title = dmNode.dataset.analyticsFileEntryTitle;
+			}
+
+			Analytics.send('posted', 'Comment', eventProperties);
+		}
+	};
+
+	Liferay.on('messagePosted', onMessagePosted);
+})();
+
+	function getValueByAttribute(node, attr) {
+		return (
+			node.dataset[attr] ||
+			(node.parentElement && node.parentElement.dataset[attr])
+		);
+	}
+
+	function sendAnalyticsEvent(anchor) {
+		var fileEntryId = getValueByAttribute(anchor, 'analyticsFileEntryId');
+		var title = getValueByAttribute(anchor, 'analyticsFileEntryTitle');
+		var version = getValueByAttribute(anchor, 'analyticsFileEntryVersion');
+
+		if (fileEntryId) {
+			Analytics.send('documentDownloaded', 'Document', {
+				groupId: themeDisplay.getScopeGroupId(),
+				fileEntryId,
+				preview: !!window._com_liferay_document_library_analytics_isViewFileEntry,
+				title,
+				version,
+			});
+		}
+	}
+
+	function handleDownloadClick(event) {
+		if (window.Analytics) {
+			if (event.target.nodeName.toLowerCase() === 'a') {
+				sendAnalyticsEvent(event.target);
+			}
+			else if (
+				event.target.parentNode &&
+				event.target.parentNode.nodeName.toLowerCase() === 'a'
+			) {
+				sendAnalyticsEvent(event.target.parentNode);
+			}
+			else if (
+				event.target.dataset.action === 'download' ||
+				event.target.querySelector('.lexicon-icon-download') ||
+				event.target.classList.contains('lexicon-icon-download') ||
+				(event.target.parentNode &&
+					event.target.parentNode.classList.contains(
+						'lexicon-icon-download'
+					))
+			) {
+				var selectedFiles = document.querySelectorAll(
+					'.portlet-document-library .entry-selector:checked'
+				);
+
+				selectedFiles.forEach(({value}) => {
+					var selectedFile = document.querySelector(
+						'[data-analytics-file-entry-id="' + value + '"]'
+					);
+
+					sendAnalyticsEvent(selectedFile);
+				});
+			}
+		}
+	}
+
+	Liferay.once('destroyPortlet', () => {
+		document.body.removeEventListener('click', handleDownloadClick);
+	});
+
+	Liferay.once('portletReady', () => {
+		document.body.addEventListener('click', handleDownloadClick);
+	});
+
+
+	if (window.svg4everybody && Liferay.Data.ICONS_INLINE_SVG) {
+		svg4everybody(
+			{
+				polyfill: true,
+				validate: function (src, svg, use) {
+					return !src || !src.startsWith('#');
+				}
+			}
+		);
+	}
+
+
+	
+		Liferay.Portlet.register('com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet_',
+			portletId: 'com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d285340\x26p_p_id\x3dcom_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_e4DEwAkdPoWE');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_e4DEwAkdPoWE_',
+			portletId: 'com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_e4DEwAkdPoWE',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d285340\x26p_p_id\x3dcom_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_e4DEwAkdPoWE\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_3WADZecL18QU');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 2,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_3WADZecL18QU_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_3WADZecL18QU',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d285340\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_3WADZecL18QU\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d2\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents',
+			refreshURLData: {}
+		}
+	);
+
+
+		Liferay.once('allPortletsReady', () => {
+			document
+				.getElementById('p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_SgMsVAEFxU9G_')
+				.scrollIntoView();
+		});
+	
+
+	
+		Liferay.Portlet.register('com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_SgMsVAEFxU9G');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 1,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_SgMsVAEFxU9G_',
+			portletId: 'com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_SgMsVAEFxU9G',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d285340\x26p_p_id\x3dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_SgMsVAEFxU9G\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d3\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents',
+			refreshURLData: {"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_SgMsVAEFxU9G_assetEntryId":["1671962"],"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_SgMsVAEFxU9G_languageId":["en_US"],"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_SgMsVAEFxU9G_mvcPath":["\/view_content.jsp"],"_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_SgMsVAEFxU9G_type":["content"]}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch_',
+			portletId: 'com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d285340\x26p_p_id\x3dcom_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_hri_globalsearch\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_footer');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_footer_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_footer',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d285340\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_footer\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr_',
+			portletId: 'com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d285340\x26p_p_id\x3dcom_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_1stAsPshr\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_portal_search_web_portlet_SearchPortlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_portal_search_web_portlet_SearchPortlet_',
+			portletId: 'com_liferay_portal_search_web_portlet_SearchPortlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d285340\x26p_p_id\x3dcom_liferay_portal_search_web_portlet_SearchPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_',
+			portletId: 'com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d285340\x26p_p_id\x3dcom_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_',
+			portletId: 'com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d285340\x26p_p_id\x3dcom_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_globalsites');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_globalsites_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_globalsites',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d285340\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_globalsites\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_globalsites');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_globalsites_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_globalsites',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d285340\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_hri_globalsites\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F-\x252Fresearch-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents',
+			refreshURLData: {}
+		}
+	);
+
+
+</script><script>
+Liferay.Loader.require(
+'frontend-js-web/index',
+function(frontendJsWeb) {
+try {
+AUI().use(
+  'liferay-menu',
+  'liferay-navigation-interaction',
+function(A) {
+(function() {
+var $ = AUI.$;var _ = AUI._;
+	var {delegate} = frontendJsWeb;
+
+	delegate(
+		document,
+		'focusin',
+		'.portlet',
+		function(event) {
+			event.delegateTarget.closest('.portlet').classList.add('open');
+		}
+	);
+
+	delegate(
+		document,
+		'focusout',
+		'.portlet',
+		function(event) {
+			event.delegateTarget.closest('.portlet').classList.remove('open');
+		}
+	);
+})();
+(function() {
+var $ = AUI.$;var _ = AUI._;
+	new Liferay.Menu();
+
+	var liferayNotices = Liferay.Data.notices;
+
+	for (var i = 0; i < liferayNotices.length; i++) {
+		Liferay.Util.openToast(liferayNotices[i]);
+	}
+
+})();
+(function() {
+var $ = AUI.$;var _ = AUI._;
+		var {openToast} = frontendJsWeb;
+
+		AUI().use(
+			'liferay-session',
+			function() {
+				Liferay.Session = new Liferay.SessionBase(
+					{
+						autoExtend: true,
+						redirectOnExpire: false,
+						redirectUrl: 'https\x3a\x2f\x2fusa\x2ehonda-ri\x2ecom\x2fweb\x2fguest',
+						sessionLength: 900,
+						sessionTimeoutOffset: 70,
+						warningLength: 60
+					}
+				);
+
+				
+			}
+		);
+	
+})();
+(function() {
+var $ = AUI.$;var _ = AUI._;        var navigation = A.one('#navbar_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_e4DEwAkdPoWE');
+
+        if (navigation) {
+            navigation.plug(Liferay.NavigationInteraction);
+        }
+
+        Liferay.Data.NAV_INTERACTION_LIST_SELECTOR = '.navbar-site';
+        Liferay.Data.NAV_LIST_SELECTOR = '.navbar-site';
+})();
+});
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+<script src="https://usa.honda-ri.com/o/liferay-hri-theme/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;t=1790886068000" type="text/javascript"></script>
+
+
+
+
+<script>
+Liferay.Loader.require(
+'frontend-js-alert-support-web@2.0.10/index',
+function(AlertProvider) {
+try {
+(function() {
+AlertProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script><script>
+Liferay.Loader.require(
+'frontend-js-tooltip-support-web@4.0.19/index',
+function(TooltipSupport) {
+try {
+(function() {
+TooltipSupport.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script><script>
+Liferay.Loader.require(
+'frontend-js-dropdown-support-web@2.0.10/index',
+function(DropdownProvider) {
+try {
+(function() {
+DropdownProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script><script>
+Liferay.Loader.require(
+'frontend-js-collapse-support-web@2.0.13/index',
+function(CollapseProvider) {
+try {
+(function() {
+CollapseProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script><script>
+Liferay.Loader.require(
+'frontend-js-tabs-support-web@2.0.12/index',
+function(TabsProvider) {
+try {
+(function() {
+TabsProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script><script type="text/javascript">
+Liferay.CustomDialogs = {enabled: false};
+
+</script><script>
+
+</script>
+    <liferay-util:html-bottom>
+        <script src="https://usa.honda-ri.com/o/liferay-hri-theme/js/vendor/handlebars.min-v4.7.7.js"></script>
+        <script src="https://usa.honda-ri.com/o/liferay-hri-theme/js/search-form2.js"></script>
+        <script src="https://usa.honda-ri.com/o/liferay-hri-theme/js/select2/js/select2.min.js"></script>
+        <script src="https://usa.honda-ri.com/o/liferay-hri-theme/js/smoothScroll/js/smooth-scroll.js"></script>
+        <script src="https://usa.honda-ri.com/o/liferay-hri-theme/js/mobile-navigation.js"></script>
+
+    </liferay-util:html-bottom>
+
+</body>
+<script src="https://usa.honda-ri.com/o/liferay-hri-theme/js/google-analytics.js"></script>
+</html>
+		
+	
+
