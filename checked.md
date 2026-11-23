@@ -54,3 +54,49 @@ Re-posts not recorded: Honda P26INT-05/15/16 are second listings of Learning-Bas
 Archive notes: the MERL clearcompany pages are JS shells, so each .html also holds the matching merl.com openings-page section, and the .md was built from that section. TRI came from the Lever API, Amazon from search.json, and Honda from the page HTML. No 404s on new postings.
 No new relevant postings: Meta, NVIDIA (only China-based engineering interns), Intrinsic, Ai2 (only AI for Science / Neuroscience / Open Ecosystem), Physical Intelligence, Dyna, RAI Institute, Applied Intuition, FieldAI, Figure, Skild AI, Boston Dynamics, GM, Disney Research, Sony AI, Generalist AI, Google/DeepMind (only Israel/India Student Researcher pipelines), Microsoft Research.
 Not recorded (lower fit): TRI Prototyping and Research Operations intern (undergrad/MS), MERL OR0351 humanoid teleop data collection, MERL SA0336 HRI via multimodal scene understanding, Honda marine-robotics perception/vehicle-dynamics interns, Waymo 2027 PhD interns (autonomous driving), Meta Neural Network Training & HW-SW Co-Design intern, Persona AI humanoid software intern, Intuitive Surgical robotics engineering interns.
+
+## 2026-11-23 (weekly run)
+13 new rows recorded:
+- TRI (4): Spatial Intelligence for Robotics, Agentic Robotics, Generalist Robot Learning (GRL), World Models / Multimodal Sensing.
+- Meta Reality Labs Research (2): Physics-Grounded Multimodal Robot Learning, and Machine Learning for Robotics (edge-ML hardware co-design, a weaker match).
+- Amazon (1): Applied Scientist Intern - VLA and DATA, RIVR, Zurich. Posted 2026-11-10 and missed last week.
+- MERL (4): OR0362 Robot Learning, CV0357 Physical AI Reasoning, CV0356 Embodied Multi-Agent Cooperation (weaker match), OR0298 Robotic Disassembly (second disassembly listing, may have been up earlier).
+- Bosch Research (2): Robot Learning Research Intern, Pittsburgh (BCAI). VLA Research Intern, Sunnyvale (autonomous-driving focus, posted 2026-11-06 and missed earlier).
+
+Sources:
+- NVIDIA, Boston Dynamics, GM, Disney, Intel and ABB Workday APIs.
+- Lever, Greenhouse and Ashby APIs, including skildai-careers and intrinsicrobotics.
+- Meta careers sitemap, plus the JSON-LD of all 1,369 job pages.
+- amazon.jobs search.json, Google careers search, Bosch SmartRecruiters API.
+- merl.com internship openings and usa.honda-ri.com/intern-positions.
+- phd-intern-board.github.io/api/jobs.json. The dion-jy board moved here.
+- Web search.
+- The Microsoft careers API now returns "Not authorized for PCSX". MSR was checked via the phd-intern-board feed instead, and it had no robotics intern.
+
+Manual notes: no new notes since 2026-10-27. Rechecked the Meta positions from that note:
+- Policy Learning for Robotics and Multimodal Learning for Robotics are still live.
+- Robot Foundation Models (27730225806654441) is now gone.
+
+Closed (not in the Meta sitemap, and the job_details page has no JobPosting data):
+- Meta Robot Foundation Models (27730225806654441)
+- Meta Interactive Physics Simulation for Robotics (1143164681833409)
+- Meta Humanoid Control & Dexterous Manipulation (1832390484751700)
+
+Archive notes:
+- TRI came from the Lever API.
+- Meta came from the JSON-LD on the /profile/job_details/ pages, which were already fetched for the sitemap scan.
+- Amazon came from search.json, plus the job page HTML.
+- MERL .html files hold the clearcompany shell plus the merl.com openings-page section. The .md was built from that section.
+- Bosch came from the SmartRecruiters posting API, plus the job page HTML.
+- No 404s.
+
+No new relevant postings: NVIDIA (only China-based engineering interns), Intrinsic (no interns on Greenhouse), Ai2 (only Climate Modeling, AI for Science / Neuroscience, Open Ecosystem), Physical Intelligence, Dyna, RAI Institute, Applied Intuition, FieldAI, Figure, Skild AI (only a brand design intern), Boston Dynamics, GM, Disney Research, Sony AI, Generalist AI, Honda RI (no P26INT numbers above 31; the robotics ones are already recorded), Samsung Research America, Google/DeepMind (only a new Tokyo Student Researcher 2027 regional pipeline).
+
+Not recorded (lower fit):
+- TRI Robotics Intern, UX Design and Prototyping and Robotics Operations
+- Waymo PhD interns, including Depot Automation and Agentic AI (autonomous driving)
+- Bosch Agentic AI R&D, Driving Foundations, and the foundation-model interns (healthcare, sensors, time series)
+- Amazon Berlin general Applied Scientist PhD pipeline
+- Meta AI Agents for Autonomous Laboratories and Computational Mechanics
+- NVIDIA Cross-Disciplinary Vision Science
+- Flexion Robotics / Mimic (Zurich) intern listings. These were seen only on aggregators, and their ATS was blocked or rate-limited.
